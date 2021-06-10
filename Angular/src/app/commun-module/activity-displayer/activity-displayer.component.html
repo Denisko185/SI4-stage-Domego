@@ -1,0 +1,19 @@
+<div nz-col nzSpan="12" *ngFor="let item of activitiesBenefits">
+  <nz-radio-group
+    *ngIf="isActivity && type !=='MANDATORY'"
+    [(ngModel)]="value"
+    [nzButtonStyle]="'solid'">
+    <label
+      nz-radio-button
+      [nzValue]="item.amountToPay"
+      (click)="getClickItem(item)">{{item?.amountToPay}}
+    </label>
+  </nz-radio-group>
+  <div *ngIf="!isActivity && type !== 'QUALITY'" [ngStyle]="roleStyle">{{item?.amountToPay}}</div>
+  <br>
+  <b *ngIf="type==='DAYS'">-{{item?.bonusAmount}}j</b>
+  <b *ngIf="type==='RISKS'">-{{item?.bonusAmount}}R</b>
+  <div *ngIf="type === 'QUALITY'" class="quality">
+    <b>+{{item?.bonusAmount}}Q</b>
+  </div>
+</div>

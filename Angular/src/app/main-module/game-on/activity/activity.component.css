@@ -1,0 +1,90 @@
+.container{
+  text-align: center;
+}
+
+.buyResource{
+  text-align: center;
+}
+
+
+.activity2Container{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.buyResource{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.row_plain{
+  display: flex;
+  flex-direction: row;
+}
+
+.column{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column_plain{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width:20px;
+  height:20px;
+}
+
+.information{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.column{
+  text-align: center;
+}
+
+#confirm{
+  margint-top: 1em;
+}
+
+:host ::ng-deep .ant-tabs-tab {
+  width: 33.3%;
+  margin: 0;
+  padding: 12px 5px;
+  text-align: center;
+  white-space: normal;
+}
+
+h1{
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+h5{
+  padding-top:2em;
+}
+
+p{
+  padding: 2em;
+}

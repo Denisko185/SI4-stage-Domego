@@ -1,0 +1,9 @@
+.myContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.basicTable{
+  max-height: 400px;
+  overflow-y: auto;
+}

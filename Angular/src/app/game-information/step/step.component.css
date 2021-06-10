@@ -1,0 +1,61 @@
+.templateTitle{
+  display: flex;
+}
+
+
+.durationContainer{
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #e9911d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.risk{
+  background-color: #c54e3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.cell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span{
+  padding: 5px;
+}
+
+#done{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 999;
+  font-size: 140px;
+  color: rgba(18, 48, 116, 0.5);
+  transform:rotate(45deg);
+  -ms-transform:rotate(45deg); /* Internet Explorer */
+  -moz-transform:rotate(45deg); /* Firefox */
+  -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+  -o-transform:rotate(45deg); /* Opera */
+}
+

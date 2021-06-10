@@ -1,0 +1,61 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+
+nz-card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+::ng-deep #person-card > .ant-card-body{
+  padding: 1.5em;
+  height:55%;
+}
+
+::ng-deep #person-card > .ant-card-head {
+  border-radius: 10px;
+  height: 25%;
+}
+
+.resource {
+  display: flex;
+}
+
+.inner {
+  display: flex;
+}
+
+.resourceCube {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+h3 {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.content-container {
+  margin-top: 20px;
+  height: 156px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+::ng-deep #person-card > .ant-card-actions {
+  border-radius: 10px;
+  height:20%;
+}
+
+.contract-info {
+  height: 260px;
+}
+

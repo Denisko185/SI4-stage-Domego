@@ -1,0 +1,95 @@
+.step-container{
+  background: #ECECEC;
+  padding: 12px;
+  height: 400px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("../assets/icons/controle-construction.jpg");
+}
+
+h1{
+  color: #3f3f3f;
+}
+
+.creationContainer{
+  position: absolute;
+  right: 180px;
+  top: 300px;
+}
+
+#createSalon{
+  width: 240px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+  border: #2f92b1 solid 2px;
+}
+
+/*img{*/
+/*  !* Start the shake animation and make the animation last for 0.5 seconds *!*/
+/*  animation: shake 0.5s;*/
+
+/*  !* When the animation is finished, start again *!*/
+/*  animation-iteration-count: infinite;*/
+/*}*/
+
+/*@keyframes shake {*/
+/*  10% { transform: translate(10px, 0px) rotate(0deg); }*/
+/*}*/
+nz-badge {
+  margin-right: 20px;
+}
+
+.head-example {
+  width: 42px;
+  height: 42px;
+  border-radius: 4px;
+  background: #eee;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#image {
+  /* the image you want to 'watermark' */
+  height: 200px; /* or whatever, equal to the image you want 'watermarked' */
+  width: 200px; /* as above */
+  background-image: url('../assets/icons/coin.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#image img {
+  /* the actual 'watermark' */
+  position: absolute;
+  top: 0; /* or whatever */
+  left: 0; /* or whatever, position according to taste */
+  opacity: 0.1; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+  filter:alpha(opacity=10); /* for <= IE 8 */
+}
+
+#image {
+  /* the image you want to 'watermark' */
+  height: 200px; /* or whatever, equal to the image you want 'watermarked' */
+  width: 200px; /* as above */
+  background-image: url('../assets/icons/coin.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#image p {
+  /* the actual 'watermark' */
+  position: absolute;
+  top: 0; /* or whatever */
+  left: 0; /* or whatever, position according to taste */
+  opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+  filter:alpha(opacity=50); /* for <= IE 8 */
+}
+
