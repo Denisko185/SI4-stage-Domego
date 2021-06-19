@@ -58,9 +58,19 @@
     </div>
   </div>
 </div>
+
 <div [hidden]="isLoading">
   <app-loading></app-loading>
 </div>
+
+
+
+
+<div>
+  <app-pedagogical-questions *ngIf="pedagogicalQBool" (close)="closeModal()"></app-pedagogical-questions>
+</div>
+
+
 
 <nz-modal [nzVisible]="isRiskCard" [nzFooter]="modalFooter" nzTitle="Risques">
   <div class="myContainer" *ngIf="isRiskCard && riskCard !== null">

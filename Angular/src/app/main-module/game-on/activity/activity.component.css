@@ -1,5 +1,6 @@
 .container{
   text-align: center;
+  z-index: 999;
 }
 
 .buyResource{

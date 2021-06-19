@@ -100,6 +100,9 @@ export class GameOnComponent implements OnInit, OnDestroy {
   index = 0;
   disable = false;
 
+
+  pedagogicalQBool: boolean;
+
   constructor(private lobbyService: LobbyService,
               private gameService: GameOnService,
               private subscription: SubscriptionService,
@@ -228,6 +231,12 @@ export class GameOnComponent implements OnInit, OnDestroy {
         }
         this.notification.template(this.template);
       }
+    });
+
+    // ###################################################################
+
+    this.gameService.pedagogicalQBool.subscribe(val => {
+      this.pedagogicalQBool = val;
     });
 
   }
@@ -393,5 +402,15 @@ export class GameOnComponent implements OnInit, OnDestroy {
 
   openTotu() {
     this.isTutorial = true;
+  }
+
+
+  /*showModal() {
+    this.gameService.pedagogicalQBool.next(true);
+  }*/
+
+  closeModal() {
+    this.gameService.pedagogicalQBool.next(false);
+
   }
 }

@@ -15,6 +15,7 @@ import {History} from '../../model/history';
 export class GameOnService {
 
   public messages = new Subject<SocketRequest>();
+  public pedagogicalQBool = new Subject<boolean>();
   reponses = new Subject<any>();
   reponses$ = this.reponses.asObservable();
   test: Activity;
@@ -40,6 +41,10 @@ export class GameOnService {
   constructor(private wsService: WebsocketService,
               private resourceManager: BuyResourceService,
               private subscription: SubscriptionService) {
+
+    // ############################################
+    this.pedagogicalQBool.next(false);
+
     this.messages = wsService
       .connect(URLGame)
       .pipe(
@@ -113,6 +118,8 @@ export class GameOnService {
             console.log(this.currentStep);
             this.subscription.sendCurrentActivity(this.currentActivity);
             this.subscription.current = this.currentActivity;
+
+            this.pedagogicalQBool.next(true);
           }
 
 
@@ -126,7 +133,7 @@ export class GameOnService {
             this.getMyHistory(data);
             console.log(this.currentStep);
           }
-          if (data.response === 'BUY_RESOURCES'){
+          if (data.response === 'BUY_RESOURCES') {
             this.resourceManager.sendResourcesBuying(data.buyingResources);
             this.resourceManager.sendPayment(data.price);
           }
@@ -146,8 +153,8 @@ export class GameOnService {
           if (data.response === 'MSG_GROUP_CHAT') {
             this.groupChatMessages.push(data);
           }
-          if (data.response === 'KO'){
-            alert(data.reason)
+          if (data.response === 'KO') {
+            alert(data.reason);
           }
           this.reponses.next(data);
           return data;

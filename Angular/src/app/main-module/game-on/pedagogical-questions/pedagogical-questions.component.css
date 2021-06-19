@@ -1,0 +1,79 @@
+.modal {
+  /* detach from rest of the document */
+  position: fixed;
+
+  /* center */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* ensure in front of rest of page except modals */
+  z-index: 1001;
+
+  /* visual illusion of being in front -- alter to taste */
+  box-shadow: rgba(0,0,0,0.4) 10px 10px 4px;
+
+  /* visual illusion of being a solid object -- alter to taste */
+  background-color: #339EB9;
+  border: 5px solid #F4A317;
+  border-radius: 5%;
+
+  /* visual preference of don't crowd the contents -- alter to taste */
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+}
+
+.overlay {
+  /* detach from document */
+  position: fixed;
+
+  /* ensure in front of rest of page except modal */
+  z-index: 1000;
+
+  /* fill screen to catch mice */
+  top: 0;
+  left: 0;
+  width: 9999px;
+  height: 9999px;
+
+  /* dim screen 20% -- alter to taste */
+  opacity: 0.3;
+  background-color: black;
+}
+
+.btns{
+  position:absolute;
+  bottom:4px;
+  width:100%;
+
+}
+
+
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #FEFEFE
+;
+  background-image: linear-gradient(to top left,
+  rgba(0, 0, 0, .2),
+  rgba(0, 0, 0, .2) 30%,
+  rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px #FEFEFE,
+  inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: #F0EFEE;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px #FEFEFE,
+  inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

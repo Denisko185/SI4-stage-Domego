@@ -54,6 +54,7 @@ export class ActivityComponent implements OnInit, OnDestroy {
   isBuyed = false;
 
 
+
   constructor(private nzMessageService: NzMessageService,
               private subscription: SubscriptionService,
               private gameService: GameOnService,
@@ -113,6 +114,7 @@ export class ActivityComponent implements OnInit, OnDestroy {
       }
     });
 
+
   }
 
   popConfirm(): void {
@@ -150,6 +152,9 @@ export class ActivityComponent implements OnInit, OnDestroy {
     };
     console.log(req);
     this.gameService.messages.next(req as SocketRequest);
+
+    // ############################################################################## here
+
     this.request = {
       RISKS: null,
       DAYS: null,
@@ -219,5 +224,6 @@ export class ActivityComponent implements OnInit, OnDestroy {
   printIndex() {
     console.log(this.selectedIndex);
   }
+
 }
 

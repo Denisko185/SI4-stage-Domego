@@ -1,0 +1,5 @@
+2021-06-15 17:05:15,361 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-15 17:05:15,415 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-15 17:05:15,620 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 202 ms
+2021-06-15 17:05:15,995 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:61460
+2021-06-15 17:21:36,558 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:61460
