@@ -1,4 +1,4 @@
-import {Component, OnChanges, OnDestroy, OnInit, SimpleChanges} from '@angular/core';
+import {Component, EventEmitter, OnChanges, OnDestroy, OnInit, Output, SimpleChanges} from '@angular/core';
 import {GameOnService} from '../../service/gameOnService/game-on.service';
 import {Subscription} from 'rxjs';
 
@@ -39,6 +39,7 @@ export class ProjetInformationComponent implements OnInit, OnDestroy {
   previousDay = 0;
   previousCost = 0;
   changeTypes = [];
+  @Output() dureEmitter: EventEmitter<number> = new EventEmitter<number>();
 
   constructor(private gameService: GameOnService) {
   }
@@ -112,6 +113,9 @@ export class ProjetInformationComponent implements OnInit, OnDestroy {
           };
           break;
       }
+
+      // -----------------------------------------------------------------------------
+      this.dureEmitter.emit(this.currentTime);
     });
 
   }

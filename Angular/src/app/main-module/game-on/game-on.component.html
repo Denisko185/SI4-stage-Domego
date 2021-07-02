@@ -28,7 +28,7 @@
           </app-person-information>
         </div>
         <div class="activity" nz-col [nzSpan]="11">
-          <app-projet-information></app-projet-information>
+          <app-projet-information (dureEmitter)="updateProjetDuration($event)"></app-projet-information>
         </div>
         <div class="activity" nz-col [nzSpan]="11">
           <app-contract></app-contract>
@@ -63,11 +63,14 @@
   <app-loading></app-loading>
 </div>
 
-
+<!-- && myRole.id ===1 && etapeID-1 ===1
+                              || pedagogicalQBool && myRole.id ===1 && etapeID-1 ===2
+                              || pedagogicalQBool && myRole.id ===1 && etapeID-1 ===3
+                              || pedagogicalQBool && myRole.id ===2 && etapeID-1 ===3-->
 
 
 <div>
-  <app-pedagogical-questions *ngIf="pedagogicalQBool" (close)="closeModal()"></app-pedagogical-questions>
+  <app-pedagogical-questions [dureeProjet]="dureeProjet" [curentActivityTitle]="curentActivityTitle" *ngIf="pedagogicalQBool" (close)="closeModal()"></app-pedagogical-questions>
 </div>
 
 

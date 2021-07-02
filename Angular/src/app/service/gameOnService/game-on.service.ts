@@ -37,6 +37,7 @@ export class GameOnService {
   results: any;
   groupChatMessages = [];
   mesHistories: History[] = [];
+  nbrReponsePedago = new Subject<number>();
 
   constructor(private wsService: WebsocketService,
               private resourceManager: BuyResourceService,
@@ -44,6 +45,7 @@ export class GameOnService {
 
     // ############################################
     this.pedagogicalQBool.next(false);
+    this.nbrReponsePedago.next(0);
 
     this.messages = wsService
       .connect(URLGame)

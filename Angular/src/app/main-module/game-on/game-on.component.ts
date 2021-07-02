@@ -64,6 +64,8 @@ export class GameOnComponent implements OnInit, OnDestroy {
   isMinused = false;
   isTest = false;
   nego = 0;
+  etapeID: any;
+  curentActivityTitle: any;
   headerStyle = {
     height: '50vh'
   };
@@ -102,6 +104,7 @@ export class GameOnComponent implements OnInit, OnDestroy {
 
 
   pedagogicalQBool: boolean;
+  dureeProjet: number;
 
   constructor(private lobbyService: LobbyService,
               private gameService: GameOnService,
@@ -128,7 +131,16 @@ export class GameOnComponent implements OnInit, OnDestroy {
     this.roles = this.subscription.roles;
 
     this.subCurrentActivity = this.subscription.currentActivity$.subscribe(data => {
+
       this.currentActivity = data;
+      console.log('ddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaattttttttttttttttttttttttttaaaaaaaaaaaaaaaaaaaaa');
+      console.log(data);
+      console.log('ddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaattttttttttttttttttttttttttaaaaaaaaaaaaaaaaaaaaa');
+      this.etapeID = data.title;
+      this.curentActivityTitle = data.activityTitle;
+      this.curentActivityTitle = this.curentActivityTitle.toLowerCase();
+      this.curentActivityTitle = this.strUcFirst(this.curentActivityTitle);
+
       const previousActivityID = parseInt(this.currentActivity.title, 10) - 1;
       const previousActivityElement = document.getElementById(previousActivityID.toString());
       if (previousActivityElement != null) {
@@ -149,6 +161,13 @@ export class GameOnComponent implements OnInit, OnDestroy {
           this.swingAnimation();
         }, 1000);
       }
+
+
+      console.log('iiiiiiiiiiiiiiiiiiiiiiicccccccccccccccccccccccccccccccccccccccciiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii');
+      console.log(this.etapeID);
+      console.log(this.myRole.id);
+      console.log('iiiiiiiiiiiiiiiiiiiiiiicccccccccccccccccccccccccccccccccccccccciiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii');
+
     });
 
     this.subSteps = this.subscription.activites$.subscribe(data => {
@@ -167,6 +186,9 @@ export class GameOnComponent implements OnInit, OnDestroy {
 
     this.subGame = this.gameService.reponses$.subscribe(data => {
       console.log(data);
+
+
+
       if (data.response === 'START_NEGOTIATE') {
         data.started = false;
         this.establish.name = data.otherUserName;
@@ -238,6 +260,7 @@ export class GameOnComponent implements OnInit, OnDestroy {
     this.gameService.pedagogicalQBool.subscribe(val => {
       this.pedagogicalQBool = val;
     });
+
 
   }
 
@@ -412,5 +435,13 @@ export class GameOnComponent implements OnInit, OnDestroy {
   closeModal() {
     this.gameService.pedagogicalQBool.next(false);
 
+  }
+
+  updateProjetDuration(newd: number) {
+    this.dureeProjet = newd;
+  }
+
+  strUcFirst(a) {
+    return (a + '').charAt(0).toUpperCase() + a.substr(1);
   }
 }

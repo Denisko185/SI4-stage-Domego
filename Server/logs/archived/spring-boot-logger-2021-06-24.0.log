@@ -1,0 +1,28 @@
+2021-06-24 08:51:58,641 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-13] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:54319
+2021-06-24 08:51:58,663 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-18] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:54019
+2021-06-24 08:51:59,173 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:58548
+2021-06-24 08:51:59,188 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-17] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:57155
+2021-06-24 08:51:59,614 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52829
+2021-06-24 08:51:59,706 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-23] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56333
+2021-06-24 08:51:59,751 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-22] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:61519
+2021-06-24 08:51:59,771 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52344
+2021-06-24 08:51:59,971 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:50161
+2021-06-24 08:52:00,043 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-21] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:51210
+2021-06-24 08:53:34,235 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60c9df339a9ac76ba4dd8aa9', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
