@@ -3,7 +3,7 @@ import {LobbyService} from '../../service/lobbyService/lobby.service';
 import {SocketRequest} from '../../../Request';
 import {Router} from '@angular/router';
 import {GameOnService} from '../../service/gameOnService/game-on.service';
-import {Subscription} from 'rxjs';
+import {Subject, Subscription} from 'rxjs';
 import {SubscriptionService} from '../../service/subscriptionSerivce/subscription.service';
 import {BuyResourceService} from '../../service/resources/buy-resource.service';
 import {Activity} from '../../model/activity';
@@ -148,6 +148,7 @@ export class GameOnComponent implements OnInit, OnDestroy {
         document.getElementById('stepsContainer').scrollTop = this.totalScrollHeight;
       }
       console.log(this.currentActivity);
+
       this.negotiationIDs = [];
       this.initDialog();
       this.currentActivity.negotiationActions.forEach(nego => {
@@ -172,6 +173,7 @@ export class GameOnComponent implements OnInit, OnDestroy {
 
     this.subSteps = this.subscription.activites$.subscribe(data => {
       this.currentStep = data;
+      this.gameService.currentStepSubject.next(this.currentStep);
 
       console.log(data);
     });

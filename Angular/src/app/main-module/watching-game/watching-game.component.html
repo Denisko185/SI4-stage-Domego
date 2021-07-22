@@ -1,0 +1,9 @@
+<!--<div  class="allContainerss">
+<div id="stepsContainer" class="right-container" nz-col [nzSpan]="8" [nzPull]="16"
+     style="background-color: #ececec">-->
+  <div  *ngFor="let s of currentStep" [id]="s.title">
+    <app-step [step]="s" (currentStep)="getCurrentStep($event)"
+              (sendStepTest)="getStepTest($event)"></app-step>
+  </div>
+<!--</div>
+</div> -->

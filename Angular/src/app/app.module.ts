@@ -53,6 +53,7 @@ import { ListHistoryComponent } from './list-history/list-history.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatBadgeModule } from '@angular/material/badge';
 import { PedagogicalQuestionsComponent } from './main-module/game-on/pedagogical-questions/pedagogical-questions.component';
+import { WatchingGameComponent } from './main-module/watching-game/watching-game.component';
 
 
 const ngZorroConfig: NzConfig = {
@@ -99,6 +100,7 @@ registerLocaleData(fr);
     ContractComponent,
     ListHistoryComponent,
     PedagogicalQuestionsComponent,
+    WatchingGameComponent,
   ],
   imports: [
     BrowserModule,

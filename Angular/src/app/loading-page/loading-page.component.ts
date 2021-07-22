@@ -18,7 +18,7 @@ export class LoadingPageComponent implements OnInit {
   ngOnInit() {
     this.gameService.messages.subscribe(data => {
       console.log(data);
-      if (data.numberOfPlayersConnected == 6) {
+      if (data.numberOfPlayersConnected === 6) {
         this.router.navigate(['gameon']);
       }
     });

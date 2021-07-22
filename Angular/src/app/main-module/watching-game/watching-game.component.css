@@ -1,0 +1,10 @@
+.allContainerss {
+  max-height: 100%;
+  max-width: 100%;
+  background-image: url('../../../assets/icons/new123.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  overflow-y: hidden;
+  z-index: 998;
+}

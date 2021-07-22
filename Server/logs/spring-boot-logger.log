@@ -1,2 +1,26 @@
-2021-07-06 12:55:42,483 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:57628
-2021-07-06 13:44:24,253 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-12] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:57628
+2021-07-16 10:39:50,005 INFO org.springframework.boot.StartupInfoLogger [main] Starting DomegoApplication on DESKTOP-8CKEDBD with PID 5932 (C:\Users\R-mann\Documents\GitHub\SI4-stage-Domego\Server\target\classes started by R-mann in C:\Users\R-mann\Documents\GitHub\SI4-stage-Domego\Server)
+2021-07-16 10:39:50,014 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-07-16 10:39:50,857 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-16 10:39:50,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 129ms. Found 2 repository interfaces.
+2021-07-16 10:39:51,533 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-07-16 10:39:51,552 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-16 10:39:51,553 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-07-16 10:39:51,555 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-07-16 10:39:51,694 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-07-16 10:39:51,695 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1615 ms
+2021-07-16 10:39:52,064 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-07-16 10:39:52,066 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Adding discovered server localhost:27017 to client view of cluster
+2021-07-16 10:39:52,168 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60f145d8ce32da0fed6c2c03', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2021-07-16 10:39:52,180 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60f145d8ce32da0fed6c2c03', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5256500}
+2021-07-16 10:39:52,185 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60f145d8ce32da0fed6c2c03', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2021-07-16 10:39:52,225 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2021-07-16 10:39:52,227 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2021-07-16 10:39:52,346 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2021-07-16 10:39:52,348 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2021-07-16 10:39:52,568 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2021-07-16 10:39:52,755 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'defaultSockJsTaskScheduler'
+2021-07-16 10:39:52,945 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-16 10:39:53,012 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-07-16 10:39:53,138 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-07-16 10:39:53,179 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 10:39:53,185 INFO org.springframework.boot.StartupInfoLogger [main] Started DomegoApplication in 4.382 seconds (JVM running for 4.958)

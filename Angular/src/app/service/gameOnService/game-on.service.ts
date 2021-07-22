@@ -13,7 +13,7 @@ import {History} from '../../model/history';
 
 @Injectable()
 export class GameOnService {
-
+  currentStepSubject = new Subject<any[]>();
   public messages = new Subject<SocketRequest>();
   public pedagogicalQBool = new Subject<boolean>();
   reponses = new Subject<any>();

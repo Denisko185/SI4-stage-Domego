@@ -10,7 +10,7 @@ import { Globals } from '../globals';
 import { NzMessageService } from 'ng-zorro-antd';
 import { SubscriptionService } from '../service/subscriptionSerivce/subscription.service';
 import { Subscription } from 'rxjs';
-import { HttpParams } from "@angular/common/http";
+import { HttpParams } from '@angular/common/http';
 
 @Component({
   selector: 'app-home-page',
@@ -107,5 +107,9 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     clearInterval(this.lobbyIntervalID);
+  }
+
+  watch(data) {
+    this.router.navigate(['watch']);
   }
 }

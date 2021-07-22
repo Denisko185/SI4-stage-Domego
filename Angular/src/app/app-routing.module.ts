@@ -6,6 +6,7 @@ import { GameOnComponent } from './main-module/game-on/game-on.component';
 import { LoadingPageComponent } from './loading-page/loading-page.component';
 import {ResultComponent} from './game-information/result/result.component';
 import {LoadingComponent} from './loading/loading.component';
+import {WatchingGameComponent} from './main-module/watching-game/watching-game.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,9 @@ const routes: Routes = [
   { path: 'gameroom', component: GameRoomComponent },
   { path: 'gameon', component: GameOnComponent },
   { path: 'loading', component: LoadingComponent },
-  { path: 'result', component: ResultComponent}
+  { path: 'result', component: ResultComponent},
+  { path: 'watch', component: WatchingGameComponent },
+
 ];
 
 @NgModule({
