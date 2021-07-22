@@ -1,0 +1,12 @@
+2021-07-21 21:33:39,157 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:57882
+2021-07-21 21:33:39,997 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-4] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59220
+2021-07-21 21:33:40,222 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:51425
+2021-07-21 21:33:40,468 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:49408
+2021-07-21 21:34:25,788 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-4] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:64244
+2021-07-21 21:34:26,033 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:53099
+2021-07-21 21:36:17,412 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:57882
+2021-07-21 21:36:26,401 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:59220
+2021-07-21 22:03:25,527 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:53099
+2021-07-21 22:03:25,528 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:64244
+2021-07-21 22:03:25,531 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-1] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:49408
+2021-07-21 22:03:25,540 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:51425

@@ -68,6 +68,7 @@ public enum GameResponseKey {
     RECEIVER_ROLE_NAME("receiverRoleName"),
     TIME("time"),
     INFORMATION("information"),
+    PEDAGOPOINTS("pedagopoints"),
 
     CONTRACTS_GIVER("contractsGiver"),
     CONTRACTS_RECEIVER("contractsReceiver"), PRICE("price");

@@ -17,6 +17,7 @@ export class PedagogicalQuestionsComponent implements OnInit {
   @Input() curentActivityTitle = '';
   @Input() dureeProjet = 0;
   @Output() close = new EventEmitter<boolean>();
+  @Output() pointPedagoQ = new EventEmitter<boolean>();
 
   constructor(public gameOnService: GameOnService) {
     gameOnService.nbrReponsePedago.subscribe(value => this.nbrReponsePedago = value);
@@ -29,12 +30,13 @@ export class PedagogicalQuestionsComponent implements OnInit {
   wrong(id: string) {
     // this.coulerReponseFausse = '#f52222';
     document.getElementById(id).style.background = '#f52222';
-   // this.close.emit(false);
+    this.pointPedagoQ.emit( false);
   }
 
   right(id: string) {
     this.coulerReponseVraie = '#20c731';
     this.isBtnCloseVisible = true;
+    this.pointPedagoQ.emit( true);
   }
 
   closeModal() {

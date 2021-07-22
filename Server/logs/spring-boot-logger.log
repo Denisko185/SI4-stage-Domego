@@ -1,2 +1,4 @@
-2021-07-06 12:55:42,483 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:57628
-2021-07-06 13:44:24,253 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-12] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:57628
+2021-07-22 16:04:12,818 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52763
+2021-07-22 16:04:13,673 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-1] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52657
+2021-07-22 16:04:19,248 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:50358
+2021-07-22 16:04:27,843 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-1] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56047

@@ -17,6 +17,7 @@ public class Player {
     private double money;
     private List<Objective> objectiveList;
     private int victoryPoints;
+    private int pedagoQestPoints;
 
     public Player(WebSocketSession session, String name){
         this.session = session;
@@ -26,6 +27,7 @@ public class Player {
         this.resourcesAmount = 0;
         this.money = 0;
         this.victoryPoints = 0;
+        this.pedagoQestPoints = 22;
     }
 
     public Player(Player player) {
@@ -36,6 +38,7 @@ public class Player {
         this.resourcesAmount = player.resourcesAmount;
         this.money = player.money;
         this.session = null;
+        this.pedagoQestPoints = player.pedagoQestPoints;
     }
 
     public boolean isObjectiveValidated(ObjectiveType objectiveType, int delay, int risks, int budget){
@@ -156,6 +159,10 @@ public class Player {
         money -= amount;
     }
 
+    public void subtractPedagoPoint(){
+        pedagoQestPoints --;
+    }
+
     public void subtractMoney(double amount){
         money -= amount;
     }
@@ -171,6 +178,8 @@ public class Player {
     public List<Objective> getObjectiveList() {
         return objectiveList;
     }
+
+    public int getPedagoQestPoints(){ return pedagoQestPoints;}
 
     public void setObjectiveList(List<Objective> objectiveList) {
         this.objectiveList = objectiveList;

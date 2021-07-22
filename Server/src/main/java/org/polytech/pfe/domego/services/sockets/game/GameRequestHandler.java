@@ -56,6 +56,9 @@ public class GameRequestHandler implements RequestHandler {
             case MSG_GROUP_CHAT:
                 event = new GroupChatMessageEvent(session, request);
                 break;
+            case UPDATE_PEDAGO_QP:
+                event = new UpdatePedagogiquePointEvent(session, request);
+                break;
             default:
                 event = new InvalidEvent(session);
                 break;

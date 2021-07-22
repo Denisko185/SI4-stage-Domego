@@ -1,0 +1,425 @@
+2021-07-12 16:03:08,217 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:53568
+2021-07-12 16:03:08,236 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-11] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:49685
+2021-07-12 16:03:08,344 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-5] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56231
+2021-07-12 16:03:08,362 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-2] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:63042
+2021-07-12 16:03:08,972 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56720
+2021-07-12 16:03:08,988 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-3] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:58497
+2021-07-12 16:03:09,058 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:49457
+2021-07-12 16:03:09,073 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-9] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:60963
+2021-07-12 16:03:11,613 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:51227
+2021-07-12 16:03:11,629 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-4] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:64915
+2021-07-12 16:03:11,697 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:55387
+2021-07-12 16:03:11,733 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-12] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:60967
+2021-07-12 16:03:21,684 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-6] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:60967
+2021-07-12 16:03:21,685 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-11] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:51227
+2021-07-12 16:03:25,297 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-5] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:55387
+2021-07-12 16:03:25,297 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:64915
+2021-07-12 16:03:29,120 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-10] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:49685
+2021-07-12 16:03:29,121 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:53568
+2021-07-12 16:03:32,607 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-7] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:63042
+2021-07-12 16:03:32,613 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:56231
+2021-07-12 16:03:36,798 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-8] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:60963
+2021-07-12 16:03:36,799 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-4] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:49457
+2021-07-12 16:03:42,093 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:58497
+2021-07-12 16:03:42,095 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-12] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:56720
+2021-07-12 16:03:44,942 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:62667
+2021-07-12 16:03:48,282 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-5] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:53625
+2021-07-12 16:03:48,922 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:54316
+2021-07-12 16:03:49,878 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:50258
+2021-07-12 16:03:50,960 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-4] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52311
+2021-07-12 16:03:51,142 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-12] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56115
+2021-07-12 16:15:11,579 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-11] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:62667
+2021-07-12 16:15:11,658 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-5] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:52311
+2021-07-12 16:15:11,668 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:56115
+2021-07-12 16:15:11,688 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:50258
+2021-07-12 16:15:11,789 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:53625
+2021-07-12 16:15:11,797 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:54316
+2021-07-12 16:15:28,906 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56275
+2021-07-12 16:15:29,712 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:51872
+2021-07-12 16:15:29,973 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-11] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:63221
+2021-07-12 16:15:30,151 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:55338
+2021-07-12 16:15:31,991 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:60380
+2021-07-12 16:15:32,965 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:65535
+2021-07-12 16:48:39,829 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-11] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:51872
+2021-07-12 16:48:39,888 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-2] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:63221
+2021-07-12 16:48:40,313 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:55338
+2021-07-12 16:48:40,770 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:60380
+2021-07-12 16:48:41,057 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:56275
+2021-07-12 16:48:41,634 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:65535
+2021-07-12 16:48:59,009 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:53320
+2021-07-12 16:48:59,093 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-5] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59461
+2021-07-12 16:48:59,437 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-11] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:49371
+2021-07-12 16:48:59,768 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:55237
+2021-07-12 16:49:01,293 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:49250
+2021-07-12 16:49:01,350 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:55241
+2021-07-12 17:03:22,524 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:55237
+2021-07-12 17:03:22,579 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:59461
+2021-07-12 17:03:22,591 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:49371
+2021-07-12 17:03:22,673 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-10] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:49250
+2021-07-12 17:03:22,714 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:55241
+2021-07-12 17:03:22,771 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-9] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:53320
+2021-07-12 17:03:37,891 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-1] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52687
+2021-07-12 17:03:38,121 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-5] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:65152
+2021-07-12 17:03:38,381 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:60508
+2021-07-12 17:03:38,463 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-7] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:60548
+2021-07-12 17:03:39,934 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52879
+2021-07-12 17:03:40,398 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-11] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:63191
+2021-07-12 23:42:04,520 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-7] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.CreateGameEvent
+2021-07-12 23:42:04,573 INFO org.polytech.pfe.domego.protocol.room.CreateGameEvent [http-nio-8080-exec-7] CreateGameEvent : A has created a Room named : A's lobby with ID : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:42:04,629 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-2] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:56709
+2021-07-12 23:42:07,954 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-10] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChooseRoleEvent
+2021-07-12 23:42:08,085 INFO org.polytech.pfe.domego.protocol.room.ChooseRoleEvent [http-nio-8080-exec-10] ChooseRoleEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : A has change role, new role : MANAGER
+2021-07-12 23:42:09,239 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-9] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChangeStatusEvent
+2021-07-12 23:42:09,242 INFO org.polytech.pfe.domego.protocol.room.ChangeStatusEvent [http-nio-8080-exec-9] ChangeStatusEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : A has change status, new status : Ready
+2021-07-12 23:42:16,287 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-11] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.JoinRoomEvent
+2021-07-12 23:42:16,290 INFO org.polytech.pfe.domego.protocol.room.JoinRoomEvent [http-nio-8080-exec-11] JoinRoomEvent : New player named : Z has join the room : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:42:16,336 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-7] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:50073
+2021-07-12 23:42:18,712 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-9] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChooseRoleEvent
+2021-07-12 23:42:18,722 INFO org.polytech.pfe.domego.protocol.room.ChooseRoleEvent [http-nio-8080-exec-9] ChooseRoleEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : Z has change role, new role : ARCHITECT
+2021-07-12 23:42:21,602 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-1] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChangeStatusEvent
+2021-07-12 23:42:21,604 INFO org.polytech.pfe.domego.protocol.room.ChangeStatusEvent [http-nio-8080-exec-1] ChangeStatusEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : Z has change status, new status : Ready
+2021-07-12 23:42:27,890 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-2] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.JoinRoomEvent
+2021-07-12 23:42:27,893 INFO org.polytech.pfe.domego.protocol.room.JoinRoomEvent [http-nio-8080-exec-2] JoinRoomEvent : New player named : E has join the room : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:42:27,951 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-10] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:52200
+2021-07-12 23:42:32,461 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-8] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChooseRoleEvent
+2021-07-12 23:42:32,476 INFO org.polytech.pfe.domego.protocol.room.ChooseRoleEvent [http-nio-8080-exec-8] ChooseRoleEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : E has change role, new role : OFFICER
+2021-07-12 23:42:34,279 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-1] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChangeStatusEvent
+2021-07-12 23:42:34,282 INFO org.polytech.pfe.domego.protocol.room.ChangeStatusEvent [http-nio-8080-exec-1] ChangeStatusEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : E has change status, new status : Ready
+2021-07-12 23:42:40,712 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-2] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.JoinRoomEvent
+2021-07-12 23:42:40,714 INFO org.polytech.pfe.domego.protocol.room.JoinRoomEvent [http-nio-8080-exec-2] JoinRoomEvent : New player named : R has join the room : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:42:40,772 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-10] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:53616
+2021-07-12 23:42:43,281 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-3] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChooseRoleEvent
+2021-07-12 23:42:43,335 INFO org.polytech.pfe.domego.protocol.room.ChooseRoleEvent [http-nio-8080-exec-3] ChooseRoleEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : R has change role, new role : CONTROLLER
+2021-07-12 23:42:44,767 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-8] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChangeStatusEvent
+2021-07-12 23:42:44,768 INFO org.polytech.pfe.domego.protocol.room.ChangeStatusEvent [http-nio-8080-exec-8] ChangeStatusEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : R has change status, new status : Ready
+2021-07-12 23:42:50,965 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-7] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.JoinRoomEvent
+2021-07-12 23:42:50,966 INFO org.polytech.pfe.domego.protocol.room.JoinRoomEvent [http-nio-8080-exec-7] JoinRoomEvent : New player named : T has join the room : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:42:51,004 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-2] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:50684
+2021-07-12 23:42:54,623 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-3] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChooseRoleEvent
+2021-07-12 23:42:54,659 INFO org.polytech.pfe.domego.protocol.room.ChooseRoleEvent [http-nio-8080-exec-3] ChooseRoleEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : T has change role, new role : SECONDARY
+2021-07-12 23:42:56,254 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-8] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChangeStatusEvent
+2021-07-12 23:42:56,257 INFO org.polytech.pfe.domego.protocol.room.ChangeStatusEvent [http-nio-8080-exec-8] ChangeStatusEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : T has change status, new status : Ready
+2021-07-12 23:43:04,047 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-11] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.JoinRoomEvent
+2021-07-12 23:43:04,048 INFO org.polytech.pfe.domego.protocol.room.JoinRoomEvent [http-nio-8080-exec-11] JoinRoomEvent : New player named : Y has join the room : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:05,813 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-7] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:49975
+2021-07-12 23:43:08,551 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-2] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChooseRoleEvent
+2021-07-12 23:43:08,556 INFO org.polytech.pfe.domego.protocol.room.ChooseRoleEvent [http-nio-8080-exec-2] ChooseRoleEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : Y has change role, new role : 
+2021-07-12 23:43:10,022 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-10] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.ChangeStatusEvent
+2021-07-12 23:43:10,026 INFO org.polytech.pfe.domego.protocol.room.ChangeStatusEvent [http-nio-8080-exec-10] ChangeStatusEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac the player name : Y has change status, new status : Ready
+2021-07-12 23:43:18,801 INFO org.polytech.pfe.domego.services.sockets.room.RoomRequestHandler [http-nio-8080-exec-3] RoomRequestHandler : New Room request type : class org.polytech.pfe.domego.protocol.room.StartGameEvent
+2021-07-12 23:43:18,815 INFO org.polytech.pfe.domego.protocol.room.StartGameEvent [http-nio-8080-exec-3] StartGameEvent: Player name : A start the game for room with ID bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:18,817 INFO org.polytech.pfe.domego.protocol.room.StartGameEvent [http-nio-8080-exec-3] StartGameEvent : Delete room : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:18,829 INFO org.polytech.pfe.domego.protocol.game.JoinGameEvent [http-nio-8080-exec-9] JoinGameEvent : Le joueur : R a rejoint la partie : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:18,847 INFO org.polytech.pfe.domego.protocol.game.JoinGameEvent [http-nio-8080-exec-8] JoinGameEvent : Le joueur : A a rejoint la partie : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:18,972 INFO org.polytech.pfe.domego.protocol.game.JoinGameEvent [http-nio-8080-exec-6] JoinGameEvent : Le joueur : E a rejoint la partie : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:19,505 INFO org.polytech.pfe.domego.protocol.game.JoinGameEvent [http-nio-8080-exec-1] JoinGameEvent : Le joueur : Y a rejoint la partie : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:19,519 INFO org.polytech.pfe.domego.protocol.game.JoinGameEvent [http-nio-8080-exec-5] JoinGameEvent : Le joueur : T a rejoint la partie : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:20,149 INFO org.polytech.pfe.domego.protocol.game.JoinGameEvent [http-nio-8080-exec-11] JoinGameEvent : Le joueur : Z a rejoint la partie : bd541dbc-766c-44b3-b21f-2f385ba920ac
+2021-07-12 23:43:20,212 INFO org.polytech.pfe.domego.protocol.game.LaunchGameEvent [http-nio-8080-exec-11] LaunchGameEvent : Send Message LaunchGameEvent to all players
+2021-07-12 23:43:38,464 INFO org.polytech.pfe.domego.protocol.game.BuyResourceEvent [http-nio-8080-exec-7] BuyResourceEvent : In game  bd541dbc-766c-44b3-b21f-2f385ba920ac the player named : A has buy 29 resources. He has now : 29 resources and : 121 money.
+2021-07-12 23:43:45,336 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The RISKS payment is done
+2021-07-12 23:43:45,346 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The mandatory payment is done
+2021-07-12 23:43:45,348 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has realize 2 payment for the activity : 1
+2021-07-12 23:43:45,357 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : List Payment :  [Payment{amount=3, type='RISKS'}, Payment{amount=1, type='MANDATORY'}]
+2021-07-12 23:43:45,359 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has now 25 resources
+2021-07-12 23:43:45,366 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-2] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 1 they draw 0 risk cards and 0 quality card
+2021-07-12 23:43:45,368 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-2] DrawCardEvent : List of Risk : []
+2021-07-12 23:43:45,370 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-2] DrawCardEvent : List of Quality : []
+2021-07-12 23:43:45,379 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-2] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 2
+2021-07-12 23:43:56,760 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-10] Mise à jour des points pédagogiques
+2021-07-12 23:44:10,679 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-3] Mise à jour des points pédagogiques
+2021-07-12 23:44:29,684 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-9] Mise à jour des points pédagogiques
+2021-07-12 23:44:30,463 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:44:38,012 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:45:01,600 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:45:02,359 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:45:17,831 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-11] The mandatory payment is done
+2021-07-12 23:45:17,836 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-11] The DAYS payment is done
+2021-07-12 23:45:17,839 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-11] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has realize 2 payment for the activity : 2
+2021-07-12 23:45:17,841 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-11] PaymentResourcesEvent : List Payment :  [Payment{amount=1, type='MANDATORY'}, Payment{amount=2, type='DAYS'}]
+2021-07-12 23:45:17,843 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-11] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has now 22 resources
+2021-07-12 23:45:17,848 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-11] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 2 they draw 2 risk cards and 0 quality card
+2021-07-12 23:45:17,849 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-11] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=2, description='Défaut d’une banque', bonusList=[MoneyBonus{roleType=MAITRE_D_OUVRAGE, amount=-10}]}, RiskAction{riskOfActivityId=2, description='Projet apprécié par le voisinage', bonusList=[RiskBonus{activityID=10, amount=1}]}]
+2021-07-12 23:45:17,853 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-11] DrawCardEvent : List of Quality : []
+2021-07-12 23:45:17,857 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-11] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 3
+2021-07-12 23:45:20,746 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-7] Mise à jour des points pédagogiques
+2021-07-12 23:45:36,987 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The RISKS payment is done
+2021-07-12 23:45:36,989 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The mandatory payment is done
+2021-07-12 23:45:36,992 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has realize 2 payment for the activity : 3
+2021-07-12 23:45:36,994 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : List Payment :  [Payment{amount=3, type='RISKS'}, Payment{amount=1, type='MANDATORY'}]
+2021-07-12 23:45:36,995 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has now 18 resources
+2021-07-12 23:46:32,034 INFO org.polytech.pfe.domego.protocol.game.negociation.EndNegotiationEvent [http-nio-8080-exec-8] EndNegotiationEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac the negotiation beetween MAITRE_D_OUVRAGE and MAITRE_D_OEUVRE is over. The amount of the negociation is 100.
+2021-07-12 23:46:32,040 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-8] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 3 they draw 0 risk cards and 0 quality card
+2021-07-12 23:46:32,066 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-8] DrawCardEvent : List of Risk : []
+2021-07-12 23:46:32,109 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-8] DrawCardEvent : List of Quality : []
+2021-07-12 23:46:32,189 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-8] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 4
+2021-07-12 23:46:39,550 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:46:40,387 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:46:45,161 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:46:45,996 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-11] Mise à jour des points pédagogiques
+2021-07-12 23:46:52,625 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-7] Mise à jour des points pédagogiques
+2021-07-12 23:46:53,363 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-2] Mise à jour des points pédagogiques
+2021-07-12 23:46:54,138 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-10] Mise à jour des points pédagogiques
+2021-07-12 23:47:01,408 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-3] Mise à jour des points pédagogiques
+2021-07-12 23:47:02,389 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-9] Mise à jour des points pédagogiques
+2021-07-12 23:47:08,407 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:47:09,064 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:47:23,245 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-1] The mandatory payment is done
+2021-07-12 23:47:23,247 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-1] The DAYS payment is done
+2021-07-12 23:47:23,249 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-1] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has realize 2 payment for the activity : 4
+2021-07-12 23:47:23,252 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-1] PaymentResourcesEvent : List Payment :  [Payment{amount=1, type='MANDATORY'}, Payment{amount=3, type='DAYS'}]
+2021-07-12 23:47:23,254 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-1] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has now 14 resources
+2021-07-12 23:48:14,519 INFO org.polytech.pfe.domego.protocol.game.negociation.EndNegotiationEvent [http-nio-8080-exec-5] EndNegotiationEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac the negotiation beetween MAITRE_D_OUVRAGE and BUREAU_DE_CONTROLE is over. The amount of the negociation is 20.
+2021-07-12 23:48:19,389 INFO org.polytech.pfe.domego.protocol.game.negociation.EndNegotiationEvent [http-nio-8080-exec-11] EndNegotiationEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac the negotiation beetween MAITRE_D_OEUVRE and ENTREPRISE_GROS_OEUVRE is over. The amount of the negociation is 20.
+2021-07-12 23:48:19,501 INFO org.polytech.pfe.domego.protocol.game.negociation.EndNegotiationEvent [http-nio-8080-exec-7] EndNegotiationEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac the negotiation beetween MAITRE_D_OEUVRE and ENTREPRISE_CORPS_ETAT_SECONDAIRE is over. The amount of the negociation is 20.
+2021-07-12 23:48:19,760 INFO org.polytech.pfe.domego.protocol.game.negociation.EndNegotiationEvent [http-nio-8080-exec-2] EndNegotiationEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac the negotiation beetween MAITRE_D_OEUVRE and BUREAU_D_ETUDE is over. The amount of the negociation is 20.
+2021-07-12 23:48:19,764 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-2] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 4 they draw 2 risk cards and 0 quality card
+2021-07-12 23:48:19,777 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-2] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=4, description='Bonne confiance entre les parties', bonusList=[DaysBonus{activityID=4, amount=-5}]}, RiskAction{riskOfActivityId=4, description='Grève des transports', bonusList=[]}]
+2021-07-12 23:48:19,789 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-2] DrawCardEvent : List of Quality : []
+2021-07-12 23:48:19,796 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : GIVER name :  A, money 111 resource 14
+2021-07-12 23:48:19,799 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : RECEIVER name :  Z, money 30 resource 0
+2021-07-12 23:48:19,802 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid MAITRE_D_OEUVRE the amount 10.
+2021-07-12 23:48:19,805 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : GIVER name :  A, money 101 resource 14
+2021-07-12 23:48:19,807 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : RECEIVER name :  Z, money 40 resource 0
+2021-07-12 23:48:19,809 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : GIVER name :  A, money 101 resource 14
+2021-07-12 23:48:19,818 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : RECEIVER name :  R, money 20 resource 0
+2021-07-12 23:48:19,826 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid BUREAU_DE_CONTROLE the amount 2.
+2021-07-12 23:48:19,829 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : GIVER name :  A, money 99 resource 14
+2021-07-12 23:48:19,831 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : RECEIVER name :  R, money 22 resource 0
+2021-07-12 23:48:19,833 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : GIVER name :  Z, money 40 resource 0
+2021-07-12 23:48:19,839 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : RECEIVER name :  E, money 20 resource 0
+2021-07-12 23:48:19,848 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid BUREAU_D_ETUDE the amount 6.
+2021-07-12 23:48:19,849 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : GIVER name :  Z, money 34 resource 0
+2021-07-12 23:48:19,853 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-2] PayContractEvent : RECEIVER name :  E, money 26 resource 0
+2021-07-12 23:48:19,855 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-2] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 5
+2021-07-12 23:48:25,068 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-10] Mise à jour des points pédagogiques
+2021-07-12 23:48:31,935 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-3] Mise à jour des points pédagogiques
+2021-07-12 23:48:32,664 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-9] Mise à jour des points pédagogiques
+2021-07-12 23:48:38,310 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:48:44,866 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:48:51,037 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:48:51,656 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:49:19,149 INFO org.polytech.pfe.domego.protocol.game.BuyResourceEvent [http-nio-8080-exec-11] BuyResourceEvent : In game  bd541dbc-766c-44b3-b21f-2f385ba920ac the player named : Z has buy 24 resources. He has now : 24 resources and : 10 money.
+2021-07-12 23:49:34,502 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-7] The RISKS payment is done
+2021-07-12 23:49:34,504 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-7] The mandatory payment is done
+2021-07-12 23:49:34,505 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-7] The DAYS payment is done
+2021-07-12 23:49:34,507 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-7] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has realize 3 payment for the activity : 5
+2021-07-12 23:49:34,510 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-7] PaymentResourcesEvent : List Payment :  [Payment{amount=0, type='RISKS'}, Payment{amount=1, type='MANDATORY'}, Payment{amount=1, type='DAYS'}]
+2021-07-12 23:49:34,512 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-7] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has now 22 resources
+2021-07-12 23:49:54,666 INFO org.polytech.pfe.domego.protocol.game.BuyResourceEvent [http-nio-8080-exec-2] BuyResourceEvent : In game  bd541dbc-766c-44b3-b21f-2f385ba920ac the player named : E has buy 15 resources. He has now : 15 resources and : 11 money.
+2021-07-12 23:50:04,724 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The RISKS payment is done
+2021-07-12 23:50:04,726 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The mandatory payment is done
+2021-07-12 23:50:04,727 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The DAYS payment is done
+2021-07-12 23:50:04,728 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named E has realize 3 payment for the activity : 5
+2021-07-12 23:50:04,730 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : List Payment :  [Payment{amount=2, type='RISKS'}, Payment{amount=1, type='MANDATORY'}, Payment{amount=0, type='DAYS'}]
+2021-07-12 23:50:04,731 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named E has now 12 resources
+2021-07-12 23:50:27,835 INFO org.polytech.pfe.domego.protocol.game.BuyResourceEvent [http-nio-8080-exec-3] BuyResourceEvent : In game  bd541dbc-766c-44b3-b21f-2f385ba920ac the player named : R has buy 16 resources. He has now : 16 resources and : 6 money.
+2021-07-12 23:50:50,105 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The mandatory payment is done
+2021-07-12 23:50:50,107 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The DAYS payment is done
+2021-07-12 23:50:50,108 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named R has realize 2 payment for the activity : 5
+2021-07-12 23:50:50,110 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : List Payment :  [Payment{amount=1, type='MANDATORY'}, Payment{amount=1, type='DAYS'}]
+2021-07-12 23:50:50,111 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named R has now 14 resources
+2021-07-12 23:50:50,117 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-9] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 5 they draw 2 risk cards and 0 quality card
+2021-07-12 23:50:50,121 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-9] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=5, description='Architecte pas du tout rigoureux', bonusList=[RiskBonus{activityID=12, amount=2}]}, RiskAction{riskOfActivityId=5, description='Architecte inexpérimenté', bonusList=[RiskBonus{activityID=6, amount=1}, RiskBonus{activityID=7, amount=1}]}]
+2021-07-12 23:50:50,124 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-9] DrawCardEvent : List of Quality : []
+2021-07-12 23:50:50,130 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  A, money 99 resource 14
+2021-07-12 23:50:50,132 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  Z, money 10 resource 22
+2021-07-12 23:50:50,134 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid MAITRE_D_OEUVRE the amount 20.
+2021-07-12 23:50:50,137 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  A, money 79 resource 14
+2021-07-12 23:50:50,138 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  Z, money 30 resource 22
+2021-07-12 23:50:50,140 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-9] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 6
+2021-07-12 23:51:00,955 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:51:01,673 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:51:08,260 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:51:08,870 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:51:14,623 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-11] Mise à jour des points pédagogiques
+2021-07-12 23:51:15,885 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-7] Mise à jour des points pédagogiques
+2021-07-12 23:51:21,920 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-2] Mise à jour des points pédagogiques
+2021-07-12 23:51:23,152 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-10] Mise à jour des points pédagogiques
+2021-07-12 23:51:49,178 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The mandatory payment is done
+2021-07-12 23:51:49,179 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The DAYS payment is done
+2021-07-12 23:51:49,181 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has realize 2 payment for the activity : 6
+2021-07-12 23:51:49,183 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : List Payment :  [Payment{amount=2, type='MANDATORY'}, Payment{amount=2, type='DAYS'}]
+2021-07-12 23:51:49,184 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has now 18 resources
+2021-07-12 23:52:05,442 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The RISKS payment is done
+2021-07-12 23:52:05,448 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The mandatory payment is done
+2021-07-12 23:52:05,449 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The DAYS payment is done
+2021-07-12 23:52:05,451 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has realize 3 payment for the activity : 6
+2021-07-12 23:52:05,453 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : List Payment :  [Payment{amount=0, type='RISKS'}, Payment{amount=1, type='MANDATORY'}, Payment{amount=2, type='DAYS'}]
+2021-07-12 23:52:05,456 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has now 11 resources
+2021-07-12 23:52:05,474 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The mandatory payment is done
+2021-07-12 23:52:05,481 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The mandatory payment is done
+2021-07-12 23:52:05,489 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-9] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 6 they draw 4 risk cards and 0 quality card
+2021-07-12 23:52:05,545 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-9] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=6, description='Erreur sur des plans', bonusList=[ResourcesBonus{roleType=BUREAU_DE_CONTROLE, activityID=7, amount=1}, ResourcesBonus{roleType=BUREAU_D_ETUDE, activityID=7, amount=1}]}, RiskAction{riskOfActivityId=6, description='Idée pertinente de l’architecte', bonusList=[DaysBonus{activityID=6, amount=-8}]}, RiskAction{riskOfActivityId=6, description='Problème de communication', bonusList=[DaysBonus{activityID=6, amount=2}, ResourcesBonus{roleType=MAITRE_D_OEUVRE, activityID=6, amount=2}, ResourcesBonus{roleType=MAITRE_D_OUVRAGE, activityID=6, amount=2}]}, RiskAction{riskOfActivityId=6, description='Week-end pluvieux', bonusList=[]}]
+2021-07-12 23:52:05,551 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-9] DrawCardEvent : List of Quality : []
+2021-07-12 23:52:05,563 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  A, money 79 resource 9
+2021-07-12 23:52:05,565 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  Z, money 30 resource 16
+2021-07-12 23:52:05,567 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid MAITRE_D_OEUVRE the amount 20.
+2021-07-12 23:52:05,570 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  A, money 59 resource 9
+2021-07-12 23:52:05,573 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  Z, money 50 resource 16
+2021-07-12 23:52:05,576 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  A, money 59 resource 9
+2021-07-12 23:52:05,583 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  R, money 6 resource 14
+2021-07-12 23:52:05,603 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid BUREAU_DE_CONTROLE the amount 6.
+2021-07-12 23:52:05,610 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  A, money 53 resource 9
+2021-07-12 23:52:05,614 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  R, money 12 resource 14
+2021-07-12 23:52:05,631 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  Z, money 50 resource 16
+2021-07-12 23:52:05,655 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  E, money 11 resource 12
+2021-07-12 23:52:05,680 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid BUREAU_D_ETUDE the amount 12.
+2021-07-12 23:52:05,693 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : GIVER name :  Z, money 38 resource 16
+2021-07-12 23:52:05,705 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-9] PayContractEvent : RECEIVER name :  E, money 23 resource 12
+2021-07-12 23:52:05,707 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-9] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 7
+2021-07-12 23:52:08,256 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:52:48,780 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:53:06,331 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:53:06,994 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:53:13,909 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-11] Mise à jour des points pédagogiques
+2021-07-12 23:53:22,828 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-7] Mise à jour des points pédagogiques
+2021-07-12 23:53:29,360 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-2] Mise à jour des points pédagogiques
+2021-07-12 23:53:44,952 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The mandatory payment is done
+2021-07-12 23:53:44,953 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The DAYS payment is done
+2021-07-12 23:53:44,955 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has realize 2 payment for the activity : 7
+2021-07-12 23:53:44,956 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : List Payment :  [Payment{amount=1, type='MANDATORY'}, Payment{amount=1, type='DAYS'}]
+2021-07-12 23:53:44,958 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named A has now 7 resources
+2021-07-12 23:54:01,019 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The RISKS payment is done
+2021-07-12 23:54:01,021 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The mandatory payment is done
+2021-07-12 23:54:01,022 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The DAYS payment is done
+2021-07-12 23:54:01,025 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has realize 3 payment for the activity : 7
+2021-07-12 23:54:01,027 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : List Payment :  [Payment{amount=2, type='RISKS'}, Payment{amount=5, type='MANDATORY'}, Payment{amount=0, type='DAYS'}]
+2021-07-12 23:54:01,028 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has now 9 resources
+2021-07-12 23:54:36,187 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The mandatory payment is done
+2021-07-12 23:54:36,189 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The DAYS payment is done
+2021-07-12 23:54:36,192 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named E has realize 2 payment for the activity : 7
+2021-07-12 23:54:36,193 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : List Payment :  [Payment{amount=6, type='MANDATORY'}, Payment{amount=1, type='DAYS'}]
+2021-07-12 23:54:36,195 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named E has now 5 resources
+2021-07-12 23:54:44,841 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-8] The mandatory payment is done
+2021-07-12 23:54:44,843 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-8] The DAYS payment is done
+2021-07-12 23:54:44,845 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-8] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named R has realize 2 payment for the activity : 7
+2021-07-12 23:54:44,848 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-8] PaymentResourcesEvent : List Payment :  [Payment{amount=3, type='MANDATORY'}, Payment{amount=2, type='DAYS'}]
+2021-07-12 23:54:44,849 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-8] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named R has now 9 resources
+2021-07-12 23:54:44,855 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-8] The mandatory payment is done
+2021-07-12 23:54:44,860 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-8] The mandatory payment is done
+2021-07-12 23:54:44,867 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-8] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 7 they draw 4 risk cards and 0 quality card
+2021-07-12 23:54:44,869 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-8] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=7, description='Projet classique en termes de calculs', bonusList=[DaysBonus{activityID=7, amount=-6}]}, RiskAction{riskOfActivityId=7, description='Erreur sur les calculs', bonusList=[ResourcesBonus{roleType=ENTREPRISE_GROS_OEUVRE, activityID=10, amount=1}, MoneyBonus{roleType=BUREAU_D_ETUDE, amount=-3}]}, RiskAction{riskOfActivityId=7, description='Nouvelle réglementation non maitrisée', bonusList=[DaysBonus{activityID=7, amount=7}, ResourcesBonus{roleType=BUREAU_DE_CONTROLE, activityID=7, amount=2}]}, RiskAction{riskOfActivityId=7, description='Démission d'un ingénieur', bonusList=[ResourcesBonus{roleType=BUREAU_D_ETUDE, activityID=7, amount=1}]}]
+2021-07-12 23:54:44,875 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-8] DrawCardEvent : List of Quality : []
+2021-07-12 23:54:44,885 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : GIVER name :  Z, money 38 resource 9
+2021-07-12 23:54:44,887 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : RECEIVER name :  Y, money 30 resource 0
+2021-07-12 23:54:44,890 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid ENTREPRISE_GROS_OEUVRE the amount 4.
+2021-07-12 23:54:44,893 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : GIVER name :  Z, money 34 resource 9
+2021-07-12 23:54:44,895 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : RECEIVER name :  Y, money 34 resource 0
+2021-07-12 23:54:44,896 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : GIVER name :  Z, money 34 resource 9
+2021-07-12 23:54:44,898 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : RECEIVER name :  T, money 30 resource 0
+2021-07-12 23:54:44,900 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid ENTREPRISE_CORPS_ETAT_SECONDAIRE the amount 4.
+2021-07-12 23:54:44,902 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : GIVER name :  Z, money 30 resource 9
+2021-07-12 23:54:44,903 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-8] PayContractEvent : RECEIVER name :  T, money 34 resource 0
+2021-07-12 23:54:44,905 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-8] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 8
+2021-07-12 23:54:47,366 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:54:59,136 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:55:17,012 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:55:25,788 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-11] Mise à jour des points pédagogiques
+2021-07-12 23:56:02,285 INFO org.polytech.pfe.domego.protocol.game.BuyResourceEvent [http-nio-8080-exec-7] BuyResourceEvent : In game  bd541dbc-766c-44b3-b21f-2f385ba920ac the player named : T has buy 23 resources. He has now : 23 resources and : 11 money.
+2021-07-12 23:56:19,283 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The mandatory payment is done
+2021-07-12 23:56:19,285 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The DAYS payment is done
+2021-07-12 23:56:19,287 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named T has realize 2 payment for the activity : 8
+2021-07-12 23:56:19,288 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : List Payment :  [Payment{amount=2, type='MANDATORY'}, Payment{amount=3, type='DAYS'}]
+2021-07-12 23:56:19,290 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named T has now 18 resources
+2021-07-12 23:56:33,866 INFO org.polytech.pfe.domego.protocol.game.BuyResourceEvent [http-nio-8080-exec-10] BuyResourceEvent : In game  bd541dbc-766c-44b3-b21f-2f385ba920ac the player named : Y has buy 28 resources. He has now : 28 resources and : 6 money.
+2021-07-12 23:56:46,829 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The RISKS payment is done
+2021-07-12 23:56:46,831 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The mandatory payment is done
+2021-07-12 23:56:46,832 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The DAYS payment is done
+2021-07-12 23:56:46,834 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Y has realize 3 payment for the activity : 8
+2021-07-12 23:56:46,836 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : List Payment :  [Payment{amount=5, type='RISKS'}, Payment{amount=2, type='MANDATORY'}, Payment{amount=0, type='DAYS'}]
+2021-07-12 23:56:46,837 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-3] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Y has now 21 resources
+2021-07-12 23:56:46,842 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-3] The mandatory payment is done
+2021-07-12 23:56:46,846 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-3] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 8 they draw 2 risk cards and 0 quality card
+2021-07-12 23:56:46,848 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-3] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=8, description='Bonne entente entre les entreprises', bonusList=[DaysBonus{activityID=8, amount=-5}]}, RiskAction{riskOfActivityId=8, description='Difficultés à trouver des fournisseurs CES', bonusList=[ResourcesBonus{roleType=ENTREPRISE_CORPS_ETAT_SECONDAIRE, activityID=8, amount=2}]}]
+2021-07-12 23:56:46,852 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-3] DrawCardEvent : List of Quality : []
+2021-07-12 23:56:46,857 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : GIVER name :  A, money 53 resource 7
+2021-07-12 23:56:46,859 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : RECEIVER name :  Z, money 30 resource 9
+2021-07-12 23:56:46,861 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid MAITRE_D_OEUVRE the amount 10.
+2021-07-12 23:56:46,863 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : GIVER name :  A, money 43 resource 7
+2021-07-12 23:56:46,864 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : RECEIVER name :  Z, money 40 resource 9
+2021-07-12 23:56:46,868 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : GIVER name :  Z, money 40 resource 9
+2021-07-12 23:56:46,869 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : RECEIVER name :  Y, money 6 resource 21
+2021-07-12 23:56:46,871 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid ENTREPRISE_GROS_OEUVRE the amount 6.
+2021-07-12 23:56:46,873 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : GIVER name :  Z, money 34 resource 9
+2021-07-12 23:56:46,875 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-3] PayContractEvent : RECEIVER name :  Y, money 12 resource 21
+2021-07-12 23:56:46,876 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-3] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 9
+2021-07-12 23:56:49,551 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-9] Mise à jour des points pédagogiques
+2021-07-12 23:56:55,933 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:56:56,505 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:57:02,560 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:57:09,592 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:57:47,726 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-11] The mandatory payment is done
+2021-07-12 23:57:47,728 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-11] The DAYS payment is done
+2021-07-12 23:57:47,730 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-11] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Y has realize 2 payment for the activity : 9
+2021-07-12 23:57:47,731 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-11] PaymentResourcesEvent : List Payment :  [Payment{amount=5, type='MANDATORY'}, Payment{amount=5, type='DAYS'}]
+2021-07-12 23:57:47,733 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-11] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Y has now 11 resources
+2021-07-12 23:58:03,818 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-7] The mandatory payment is done
+2021-07-12 23:58:03,822 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-7] The DAYS payment is done
+2021-07-12 23:58:03,825 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-7] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has realize 2 payment for the activity : 9
+2021-07-12 23:58:03,828 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-7] PaymentResourcesEvent : List Payment :  [Payment{amount=1, type='MANDATORY'}, Payment{amount=2, type='DAYS'}]
+2021-07-12 23:58:03,832 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-7] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has now 6 resources
+2021-07-12 23:58:03,838 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-7] The mandatory payment is done
+2021-07-12 23:58:03,843 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-7] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 9 they draw 4 risk cards and 0 quality card
+2021-07-12 23:58:03,844 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-7] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=9, description='Ouvrage mal implanté', bonusList=[ResourcesBonus{roleType=ENTREPRISE_GROS_OEUVRE, activityID=10, amount=1}, DaysBonus{activityID=9, amount=3}]}, RiskAction{riskOfActivityId=9, description='Accident sur le chantier', bonusList=[ResourcesBonus{roleType=ENTREPRISE_CORPS_ETAT_SECONDAIRE, activityID=9, amount=2}, DaysBonus{activityID=9, amount=5}]}, RiskAction{riskOfActivityId=9, description='Pluie abondante', bonusList=[DaysBonus{activityID=9, amount=5}]}, RiskAction{riskOfActivityId=9, description='Blague pas drole', bonusList=[]}]
+2021-07-12 23:58:03,849 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-7] DrawCardEvent : List of Quality : []
+2021-07-12 23:58:03,854 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : GIVER name :  A, money 43 resource 7
+2021-07-12 23:58:03,857 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : RECEIVER name :  Z, money 34 resource 6
+2021-07-12 23:58:03,859 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid MAITRE_D_OEUVRE the amount 10.
+2021-07-12 23:58:03,861 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : GIVER name :  A, money 33 resource 7
+2021-07-12 23:58:03,864 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : RECEIVER name :  Z, money 44 resource 6
+2021-07-12 23:58:03,866 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : GIVER name :  Z, money 44 resource 6
+2021-07-12 23:58:03,868 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : RECEIVER name :  Y, money 12 resource 11
+2021-07-12 23:58:03,870 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid ENTREPRISE_GROS_OEUVRE the amount 6.
+2021-07-12 23:58:03,871 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : GIVER name :  Z, money 38 resource 6
+2021-07-12 23:58:03,873 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : RECEIVER name :  Y, money 18 resource 11
+2021-07-12 23:58:03,874 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : GIVER name :  A, money 33 resource 7
+2021-07-12 23:58:03,876 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : RECEIVER name :  R, money 12 resource 7
+2021-07-12 23:58:03,890 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid BUREAU_DE_CONTROLE the amount 3.
+2021-07-12 23:58:03,891 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : GIVER name :  A, money 30 resource 7
+2021-07-12 23:58:03,893 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-7] PayContractEvent : RECEIVER name :  R, money 15 resource 7
+2021-07-12 23:58:03,900 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-7] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 10
+2021-07-12 23:58:07,534 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-2] Mise à jour des points pédagogiques
+2021-07-12 23:58:16,573 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-10] Mise à jour des points pédagogiques
+2021-07-12 23:58:17,397 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-3] Mise à jour des points pédagogiques
+2021-07-12 23:58:48,315 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-9] The mandatory payment is done
+2021-07-12 23:58:48,317 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has realize 1 payment for the activity : 10
+2021-07-12 23:58:48,319 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : List Payment :  [Payment{amount=1, type='MANDATORY'}]
+2021-07-12 23:58:48,320 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-9] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Z has now 5 resources
+2021-07-12 23:58:58,574 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-8] Mise à jour des points pédagogiques
+2021-07-12 23:58:59,343 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-6] Mise à jour des points pédagogiques
+2021-07-12 23:59:05,535 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-1] Mise à jour des points pédagogiques
+2021-07-12 23:59:06,155 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-5] Mise à jour des points pédagogiques
+2021-07-12 23:59:12,948 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-11] Mise à jour des points pédagogiques
+2021-07-12 23:59:19,750 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-7] Mise à jour des points pédagogiques
+2021-07-12 23:59:40,142 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-2] The mandatory payment is done
+2021-07-12 23:59:40,144 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Y has realize 1 payment for the activity : 10
+2021-07-12 23:59:40,145 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : List Payment :  [Payment{amount=9, type='MANDATORY'}]
+2021-07-12 23:59:40,147 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-2] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named Y has now 2 resources
+2021-07-12 23:59:50,302 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The RISKS payment is done
+2021-07-12 23:59:50,304 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The mandatory payment is done
+2021-07-12 23:59:50,306 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named R has realize 2 payment for the activity : 10
+2021-07-12 23:59:50,308 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : List Payment :  [Payment{amount=2, type='RISKS'}, Payment{amount=2, type='MANDATORY'}]
+2021-07-12 23:59:50,309 INFO org.polytech.pfe.domego.protocol.game.PayResourcesEvent [http-nio-8080-exec-10] PaymentResourcesEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac, the player named R has now 3 resources
+2021-07-12 23:59:50,315 INFO org.polytech.pfe.domego.models.activity.Activity [http-nio-8080-exec-10] The mandatory payment is done
+2021-07-12 23:59:50,320 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-10] DrawCardEvent : In the game bd541dbc-766c-44b3-b21f-2f385ba920ac for the activity 10 they draw 4 risk cards and 0 quality card
+2021-07-12 23:59:50,322 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-10] DrawCardEvent : List of Risk : [RiskAction{riskOfActivityId=10, description='Tempête', bonusList=[DaysBonus{activityID=10, amount=2}]}, RiskAction{riskOfActivityId=10, description='Equipe d'ouvriers efficace', bonusList=[DaysBonus{activityID=10, amount=-7}]}, RiskAction{riskOfActivityId=10, description='Ouvriers en situation irrégulières', bonusList=[MoneyBonus{roleType=ENTREPRISE_GROS_OEUVRE, amount=-2}, ResourcesBonus{roleType=ENTREPRISE_GROS_OEUVRE, activityID=10, amount=2}]}, RiskAction{riskOfActivityId=10, description='Béton non livré', bonusList=[DaysBonus{activityID=10, amount=2}]}]
+2021-07-12 23:59:50,326 INFO org.polytech.pfe.domego.protocol.game.DrawCardEvent [http-nio-8080-exec-10] DrawCardEvent : List of Quality : []
+2021-07-12 23:59:50,332 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : GIVER name :  A, money 30 resource 7
+2021-07-12 23:59:50,334 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : RECEIVER name :  Z, money 38 resource 5
+2021-07-12 23:59:50,336 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid MAITRE_D_OEUVRE the amount 10.
+2021-07-12 23:59:50,338 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : GIVER name :  A, money 20 resource 7
+2021-07-12 23:59:50,340 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : RECEIVER name :  Z, money 48 resource 5
+2021-07-12 23:59:50,341 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : GIVER name :  Z, money 48 resource 5
+2021-07-12 23:59:50,344 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : RECEIVER name :  T, money 11 resource 14
+2021-07-12 23:59:50,348 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OEUVRE paid ENTREPRISE_CORPS_ETAT_SECONDAIRE the amount 12.
+2021-07-12 23:59:50,350 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : GIVER name :  Z, money 36 resource 5
+2021-07-12 23:59:50,354 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : RECEIVER name :  T, money 23 resource 14
+2021-07-12 23:59:50,356 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : GIVER name :  A, money 20 resource 7
+2021-07-12 23:59:50,367 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : RECEIVER name :  R, money 15 resource 3
+2021-07-12 23:59:50,371 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : In game bd541dbc-766c-44b3-b21f-2f385ba920ac, MAITRE_D_OUVRAGE paid BUREAU_DE_CONTROLE the amount 3.
+2021-07-12 23:59:50,374 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : GIVER name :  A, money 17 resource 7
+2021-07-12 23:59:50,377 INFO org.polytech.pfe.domego.protocol.game.PayContractEvent [http-nio-8080-exec-10] PayContractEvent : RECEIVER name :  R, money 18 resource 3
+2021-07-12 23:59:50,380 INFO org.polytech.pfe.domego.protocol.game.ChangeActivityEvent [http-nio-8080-exec-10] ChangeActivityEvent : In game : bd541dbc-766c-44b3-b21f-2f385ba920ac, the current activity is now 11
+2021-07-12 23:59:52,787 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-3] Mise à jour des points pédagogiques
+2021-07-12 23:59:53,597 INFO org.polytech.pfe.domego.protocol.game.UpdatePedagogiquePointEvent [http-nio-8080-exec-9] Mise à jour des points pédagogiques

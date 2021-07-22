@@ -28,6 +28,7 @@ export class SocketRequest {
   gameType: string;
   days: any;
   cost: any;
-  reason : string;
+  reason: string;
+  pedagopoints?: number;
 
 }
