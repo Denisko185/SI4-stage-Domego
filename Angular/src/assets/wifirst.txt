@@ -1,0 +1,7 @@
+3#Combien, à votre avis, le maître d’ouvrage devrait-il acquérir de ressources pour son premier achat ?#Entre 8 et 16#Entre 16 et 24#Entre 24 et 32#Entre 32 et 41
+2#Parmi les travaux proposés, lequel est-il destiné à l’entreprise CES?#Menuiserie#Fondations#Élaboration des plans#Essais sur chantier
+3#Quel participant a pour mission de couvrir les dégâts d’un acteur ?#Assurance#Fournisseur#Sous-traitant#Topographe
+1#Avec la mise en place d’un planning, on cherche à faire apprendre quel type de compétences?#Gestion de coût#Gestion de défaillance#Gestion de délai#Gestion de maintenance
+1#Quel acteur fournit un conseil technique en vue d’optimiser le coût et la sécurité de la construction ainsi que la satisfaction du client ?#Cellule production#Cellule QHSE#Cellule méthodes#Cellule administration#
+2#Quels sont les types de récéption ?#Avec réserve#Complète#Sans réserve
+
