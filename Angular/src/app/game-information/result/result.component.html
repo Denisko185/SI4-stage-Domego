@@ -15,6 +15,12 @@
         <img class="rank" *ngIf="i===3" src="../../../assets/icons/bronze-medal.png" [height]="50" [width]="50">
         <h6>Point de Victoire: </h6>
         <h1 style="color: #e0620d">{{d?.point}}</h1>
+        <!--        <h1 *ngIf="d.id===1" style="color: #e0620d">{{d?.point+responsePoints1}}</h1>
+        <h1 *ngIf="d.id===2" style="color: #e0620d">{{d?.point+responsePoints2}}</h1>
+        <h1 *ngIf="d.id===3" style="color: #e0620d">{{d?.point+responsePoints3}}</h1>
+        <h1 *ngIf="d.id===4" style="color: #e0620d">{{d?.point+responsePoints4}}</h1>
+        <h1 *ngIf="d.id===5" style="color: #e0620d">{{d?.point+responsePoints5}}</h1>
+        <h1 *ngIf="d.id===6" style="color: #e0620d">{{d?.point+responsePoints6}}</h1>-->
         <nz-tabset>
           <nz-tab nzTitle="Détails">
             <div class="details">
@@ -29,6 +35,17 @@
               <p>Delay(s) reduite(s): <b nz-tooltip nzTooltipTitle="Delay(s) reduite(s)">{{d?.details.dayReduced}}</b>
               </p>
               <p>Négociation: <b nz-tooltip nzTooltipTitle="Contrat">{{d?.details.contactNegociated}}K</b></p>
+
+              <p>Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques:">{{d?.pedagoPoint}}</b></p>
+
+              <!--<p *ngIf="d.id===1">Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques1:">{{responsePoints1}}</b></p>
+<p *ngIf="d.id===2">Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques2:">{{responsePoints2}}</b></p>
+<p *ngIf="d.id===3">Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques3:">{{responsePoints3}}</b></p>
+<p *ngIf="d.id===4">Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques4:">{{responsePoints4}}</b></p>
+<p *ngIf="d.id===5">Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques5:">{{responsePoints5}}</b></p>
+<p *ngIf="d.id===6">Points questions pedagogiques: <b nz-tooltip nzTooltipTitle="Points questions pedagogiques6:">{{responsePoints6}}</b></p>-->
+
+
             </div>
           </nz-tab>
           <nz-tab nzTitle="Objectifs">

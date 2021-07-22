@@ -70,7 +70,7 @@
 
 
 <div>
-  <app-pedagogical-questions [dureeProjet]="dureeProjet" [curentActivityTitle]="curentActivityTitle" *ngIf="pedagogicalQBool" (close)="closeModal()"></app-pedagogical-questions>
+  <app-pedagogical-questions [dureeProjet]="dureeProjet" [curentActivityTitle]="curentActivityTitle" *ngIf="pedagogicalQBool" (close)="closeModal()" (pointPedagoQ)="updatePointsRep($event)" ></app-pedagogical-questions>
 </div>
 
 

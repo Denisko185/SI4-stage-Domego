@@ -38,6 +38,7 @@ export class GameOnService {
   groupChatMessages = [];
   mesHistories: History[] = [];
   nbrReponsePedago = new Subject<number>();
+  pedagoReponsePoint = 0;
 
   constructor(private wsService: WebsocketService,
               private resourceManager: BuyResourceService,
@@ -154,6 +155,9 @@ export class GameOnService {
 
           if (data.response === 'MSG_GROUP_CHAT') {
             this.groupChatMessages.push(data);
+          }
+          if (data.response === 'UPDATE_PEDAGO_QP') {
+            this.pedagoReponsePoint = data.pedagopoints;
           }
           if (data.response === 'KO') {
             alert(data.reason);

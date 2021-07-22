@@ -37,7 +37,7 @@ public class VictoryPointCalculator {
                     break;
             }
 
-            player.addVictoryPoint(objective.getVictoryPoints());
+            player.addVictoryPoint(objective.getVictoryPoints() + player.getPedagoQestPoints() > 0 ? player.getPedagoQestPoints() : 0);
         });
     }
 

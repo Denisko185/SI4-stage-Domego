@@ -12,6 +12,7 @@ import {NzNotificationService} from 'ng-zorro-antd';
 import {swing} from 'ng-animate';
 import {transition, trigger, useAnimation} from '@angular/animations';
 import {ChatGroupComponent} from '../../chat-module/chat-group/chat-group.component';
+import {PedagoPoints} from '../../service/PedagoPoints';
 
 
 @Component({
@@ -161,13 +162,6 @@ export class GameOnComponent implements OnInit, OnDestroy {
           this.swingAnimation();
         }, 1000);
       }
-
-
-      console.log('iiiiiiiiiiiiiiiiiiiiiiicccccccccccccccccccccccccccccccccccccccciiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii');
-      console.log(this.etapeID);
-      console.log(this.myRole.id);
-      console.log('iiiiiiiiiiiiiiiiiiiiiiicccccccccccccccccccccccccccccccccccccccciiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii');
-
     });
 
     this.subSteps = this.subscription.activites$.subscribe(data => {
@@ -443,5 +437,24 @@ export class GameOnComponent implements OnInit, OnDestroy {
 
   strUcFirst(a) {
     return (a + '').charAt(0).toUpperCase() + a.substr(1);
+  }
+
+  updatePointsRep(rep: any) {
+    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
+    console.log(PedagoPoints);
+    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
+    if (rep === false){
+      const message = {
+        request: 'UPDATE_PEDAGO_QP',
+        gameID: this.gameId,
+        pedagopoints: 0,
+        userID: this.gameService.userID
+      } as unknown as SocketRequest;
+      this.gameService.messages.next(message );
+    }
+
+    console.log('DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD');
+    console.log(this.gameService.pedagoReponsePoint);
+    console.log('DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD');
   }
 }
