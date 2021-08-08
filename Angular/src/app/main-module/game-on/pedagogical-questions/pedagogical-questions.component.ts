@@ -11,6 +11,7 @@ import {Questions} from '../../../model/Questions';
 export class PedagogicalQuestionsComponent implements OnInit {
 
   questions = [];
+  ok = true;
   coulerReponseFausse = '#8bc1d9';
   coulerReponseVraie = '#8bc1d9';
   isBtnCloseVisible = false;
@@ -27,7 +28,6 @@ export class PedagogicalQuestionsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.choix = this.getRandomIntInclusive(1, 7);
     this.getTxt();
   }
 
@@ -43,6 +43,22 @@ export class PedagogicalQuestionsComponent implements OnInit {
     this.pointPedagoQ.emit( true);
   }
 
+  checkResult(id , numGood, title) {
+    // this.coulerReponseFausse = '#f52222';
+    if ( +id !== +numGood) {
+      this.pointPedagoQ.emit( false);
+      document.getElementById(title + id).style.background = '#f52222';
+    }
+    if (+id === +numGood) {
+      this.pointPedagoQ.emit( true);
+      this.isBtnCloseVisible = true;
+      document.getElementById(title + id).style.background = '#20c731';
+
+
+    }
+
+
+      }
   closeModal() {
     this.close.emit(true);
     const nbr = this.nbrReponsePedago++;
@@ -63,7 +79,7 @@ export class PedagogicalQuestionsComponent implements OnInit {
   }
 
   getTxt() {
-      this.http.get('../../../../assets/wifirst.txt', { responseType: 'text' }).subscribe(data => {
+      this.http.get('../../../../assets/questions.txt', { responseType: 'text' }).subscribe(data => {
         const result = data.split('\n');
 
         for (const element of result) {
@@ -72,7 +88,7 @@ export class PedagogicalQuestionsComponent implements OnInit {
           const numAns = preQuestion[0];
           const title = preQuestion[1];
           for (let i = 2; i <= preQuestion.length; i++) {
-              if (preQuestion[i] !== undefined) {
+              if (preQuestion[i] !== undefined && preQuestion[i] !== '\r') {
               answer.push(preQuestion[i]);
               }
           }
@@ -82,6 +98,7 @@ export class PedagogicalQuestionsComponent implements OnInit {
           }
 
         }
+        this.choix = this.getRandomIntInclusive(1, this.questions.length);
         console.log(this.questions);
       });
   }

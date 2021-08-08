@@ -1,0 +1,215 @@
+<div *ngIf="choix===1" class="modal">
+  <p> Quelle est l’étape suivante du projet ? </p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Paiement des factures PO-MOE-CES </li>
+    <li>{{curentActivityTitle}} </li>
+    <li>Confirmation de faisabilité </li>
+    <li>Allocation de ressources MOE-CES-BC </li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt1" type="button" (click)="wrong('bt1')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt2" type="button" (click)="right('bt2')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt3" type="button" (click)="wrong('bt3')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt4" type="button" (click)="wrong('bt4')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt5" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div *ngIf="choix===2" class="modal">
+  <p> Quelle est la durée actuelle du projet ? </p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>{{dureeProjet-2}} jours </li>
+    <li>{{dureeProjet}} jours </li>
+    <li>{{dureeProjet+11}} jours </li>
+    <li> {{dureeProjet+7}} jours  </li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt6"  type="button" (click)="wrong('bt6')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt7"  type="button" (click)="right('bt7')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt8" type="button" (click)="wrong('bt8')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt9" type="button" (click)="wrong('bt9')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt10" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+
+<div *ngIf="choix===3" class="modal">
+  <p>Combien, à votre avis, le maître d’ouvrage devrait-il acquérir de ressources pour son premier achat ? </p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Entre 8 et 16 </li>
+    <li>Entre 16 et 24 </li>
+    <li>Entre 24 et 32 </li>
+    <li>Entre 32 et 41  </li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt11" type="button" (click)="wrong('bt11')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt12" type="button" (click)="wrong('bt12')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt13" type="button" (click)="right('bt13')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt14" type="button" (click)="wrong('bt14')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt15" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+<div *ngIf="choix===4" class="modal">
+  <p>Parmi les travaux proposés, lequel est-il destiné à l’entreprise CES?</p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Menuiserie </li>
+    <li>Fondations </li>
+    <li>Élaboration des plans </li>
+    <li>Essais sur chantier </li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt16" type="button" (click)="wrong('bt16')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt17" type="button" (click)="right('bt17')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt18" type="button" (click)="wrong('bt18')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt19" type="button" (click)="wrong('bt19')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt20" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+
+<div *ngIf="choix===5" class="modal">
+  <p>Quel participant a pour mission de couvrir les dégâts d’un acteur ?</p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Assurance </li>
+    <li>Fournisseur </li>
+    <li>Sous-traitant </li>
+    <li>Topographe</li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt21" type="button" (click)="wrong('bt21')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt22" type="button" (click)="wrong('bt22')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt23" type="button" (click)="right('bt23')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt24" type="button" (click)="wrong('bt24')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt25" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+
+<div *ngIf="choix===6" class="modal">
+  <p>Avec la mise en place d’un planning, on cherche à faire apprendre quel type de compétences ?</p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Gestion de coût</li>
+    <li>Gestion de défaillance </li>
+    <li>Gestion de délai </li>
+    <li>Gestion de maintenance</li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt26" type="button" (click)="right('bt26')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt27" type="button" (click)="wrong('bt27')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt28" type="button" (click)="wrong('bt28')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt29" type="button" (click)="wrong('bt29')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt30" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+
+<div *ngIf="choix===7" class="modal">
+  <p>Quel acteur fournit un conseil technique en vue d’optimiser le coût et la sécurité de la construction ainsi que la satisfaction du client ?</p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Cellule production</li>
+    <li>Cellule QHSE</li>
+    <li>Cellule méthodes</li>
+    <li>Cellule administration</li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt31" type="button" (click)="right('bt31')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt32" type="button" (click)="wrong('bt32')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt33" type="button" (click)="wrong('bt33')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt34" type="button" (click)="wrong('bt34')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt35" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+<div *ngIf="choix===8" class="modal">
+  <p>La négociation précédente, a-t-elle aboutie ? </p>
+
+  <div class="btns">
+    <button id="bt36" type="button" (click)="wrong('bt36')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; Oui&nbsp;&nbsp; </button>
+    <button id="bt37" type="button" (click)="right('bt37')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; Non &nbsp;&nbsp; </button>
+    <button id="bt38" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+
+
+
+
+<div *ngIf="choix===9" class="modal">
+  <p>Quel acteur avait-il la main pour jouer le tour précèdent ? </p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li> MO </li>
+    <li> MOE </li>
+    <li>Entreprise GO </li>
+    <li>Bureau d’étude </li>
+    <li>CES </li>
+    <li>Bureau de contrôle </li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt39" type="button" (click)="wrong('bt39')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt40" type="button" (click)="wrong('bt40')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt41" type="button" (click)="right('bt41')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt42" type="button" (click)="wrong('bt42')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; D &nbsp;&nbsp; </button>
+    <button id="bt43" type="button" (click)="wrong('bt43')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; E &nbsp;&nbsp; </button>
+    <button id="bt44" type="button" (click)="wrong('bt44')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; F &nbsp;&nbsp; </button>
+    <button id="bt45" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+
+<div *ngIf="choix===10" class="modal">
+  <p> Quels sont les types de récéption ?</p>
+
+  <ol style="list-style-type: upper-alpha;">
+    <li>Avec réserve</li>
+    <li>Complète</li>
+    <li>Sans réserve</li>
+  </ol>
+
+  <div class="btns">
+    <button id="bt46" type="button" (click)="wrong('bt46')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; A &nbsp;&nbsp; </button>
+    <button id="bt47" type="button" (click)="right('bt47')" [ngStyle]="{'background-color': coulerReponseVraie}" class="favorite styled"> &nbsp;&nbsp; B &nbsp;&nbsp; </button>
+    <button id="bt48" type="button" (click)="wrong('bt48')" [ngStyle]="{'background-color': coulerReponseFausse}" class="favorite styled" > &nbsp;&nbsp; C &nbsp;&nbsp; </button>
+    <button id="bt49" *ngIf="isBtnCloseVisible" type="button"  (click)="closeModal()" class="favorite styled">Fermer</button>
+  </div>
+</div>
+<div *ngIf="nbrReponsePedago!=6" class="overlay"></div>
