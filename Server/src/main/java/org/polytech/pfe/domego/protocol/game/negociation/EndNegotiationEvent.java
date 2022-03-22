@@ -1,6 +1,7 @@
 package org.polytech.pfe.domego.protocol.game.negociation;
 
 import com.google.gson.JsonObject;
+import org.polytech.pfe.domego.components.business.Messenger;
 import org.polytech.pfe.domego.exceptions.MissArgumentToRequestException;
 import org.polytech.pfe.domego.models.activity.Activity;
 import org.polytech.pfe.domego.models.activity.ActivityStatus;

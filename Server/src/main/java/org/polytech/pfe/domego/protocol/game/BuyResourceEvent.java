@@ -78,10 +78,10 @@ public class BuyResourceEvent implements EventProtocol {
         logger.log(Level.INFO,
                 "BuyResourceEvent : In game  {0} the player named : {1} has buy {2} resources. He has now : {3} resources and : {4} money.",
                 new Object[]{game.getId(), player.getName(), numberOfResource, player.getResourcesAmount(), player.getMoney()});
-        this.sendResponseToUser(player, totalPrice, numberOfResource);
+        this.sendResponseToUser(game,player, totalPrice, numberOfResource);
     }
 
-    private void sendResponseToUser(Player player, int price, int buyingResources) {
+    private void sendResponseToUser(Game game, Player player, int price, int buyingResources) {
         JsonObject response = new JsonObject();
         response.addProperty(GameResponseKey.RESPONSE.key, "BUY_RESOURCES");
         response.addProperty(GameResponseKey.RESOURCES.key, player.getResourcesAmount());
@@ -90,6 +90,11 @@ public class BuyResourceEvent implements EventProtocol {
         response.addProperty(GameResponseKey.PRICE.key, price);
         response.addProperty(GameResponseKey.ROLE_ID.key, player.getRole().getId());
         messenger.sendSpecificMessageToAUser(response.toString());
+
+        game.getWatchers().stream().forEach(watcher ->
+            new Messenger(watcher.getSession()).sendSpecificMessageToAUser(response.toString())
+        );
+
 
     }
 

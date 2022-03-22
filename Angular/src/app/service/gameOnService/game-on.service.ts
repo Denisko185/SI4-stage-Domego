@@ -38,6 +38,9 @@ export class GameOnService {
   groupChatMessages = [];
   mesHistories: History[] = [];
   nbrReponsePedago = new Subject<number>();
+  projCurrentCost: 0;
+  projCurrentTime: 0;
+  projCurrentFailure: 0;
 
   constructor(private wsService: WebsocketService,
               private resourceManager: BuyResourceService,
@@ -122,6 +125,11 @@ export class GameOnService {
             this.subscription.current = this.currentActivity;
 
             this.pedagogicalQBool.next(true);
+
+
+            this.projCurrentCost = data.costProject;
+            this.projCurrentTime = data.delayProject;
+            this.projCurrentFailure = data.failureProject;
           }
 
 

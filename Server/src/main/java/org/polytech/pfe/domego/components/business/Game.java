@@ -6,6 +6,7 @@ import org.polytech.pfe.domego.models.Project;
 import org.polytech.pfe.domego.models.activity.Activity;
 import org.polytech.pfe.domego.models.activity.pay.PayResources;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.logging.Logger;
@@ -21,6 +22,7 @@ public class Game {
     private int currentActivity;
     private Project project;
     private GameType gameType;
+    private List<Player> watchers;
 
 
     public Game(String id, List<Player> players, List<Activity> activities, int costWanted, int numberOfDaysWanted,
@@ -31,10 +33,15 @@ public class Game {
         this.project = new Project(costWanted, numberOfDaysWanted, numberOfRisksDrawnWanted);
         this.currentActivity = 0;
         this.gameType = gameType;
+        this.watchers = new ArrayList<>();
     }
 
     public Optional<Player> getPlayerById(String playerID){
         return players.stream().filter(player -> player.getID().equals(playerID)).findFirst();
+    }
+
+    public Optional<Player> getWatcherById(String watcherID){
+        return watchers.stream().filter(watcher -> watcher.getID().equals(watcherID)).findFirst();
     }
 
     public Optional<Player> getPlayerByRoleID(int roleID){
@@ -102,5 +109,13 @@ public class Game {
 
     public GameType getGameType() {
         return gameType;
+    }
+
+    public List<Player> getWatchers() {
+        return watchers;
+    }
+
+    public void addWatcher(Player watcher) {
+        this.watchers.add(watcher);
     }
 }

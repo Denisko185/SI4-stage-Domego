@@ -22,7 +22,7 @@
               Nombre de joueurs
             </th>
             <th>Joindre</th>
-            <th>Regarder</th>
+           <!-- <th>Regarder</th> -->
 
           </tr>
         </thead>
@@ -34,13 +34,13 @@
             <td>
               <button nz-button (click)="joinSalon(data)" [disabled]="data.numberOfPlayer===6">Join</button>
             </td>
-            <td>
-            <button nz-button (click)="watch(data)">Watch</button>
-            </td>
-          </tr>
-        </tbody>
-      </nz-table>
-    </nz-card>
-  </div>
-  <app-game-creator #gameCreator (test)="testdd($event)" [userName]="value"></app-game-creator>
-</div>
+            <!-- <td>
+             <button nz-button (click)="watch(data)">Watch</button>
+             </td> -->
+           </tr>
+         </tbody>
+       </nz-table>
+     </nz-card>
+   </div>
+   <app-game-creator #gameCreator (test)="testdd($event)" [userName]="value"></app-game-creator>
+ </div>

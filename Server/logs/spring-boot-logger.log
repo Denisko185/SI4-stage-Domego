@@ -549,3 +549,9 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2022-03-22 20:00:34,807 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-4] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59402
 2022-03-22 20:09:01,300 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-6] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59448
 2022-03-22 20:09:02,691 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-8] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59450
+2022-03-22 20:11:17,264 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-7] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:59402
+2022-03-22 20:11:17,269 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-8] RoomSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:59448
+2022-03-22 20:11:17,284 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-9] GameSocketHandler : Close session on socket with ip : /0:0:0:0:0:0:0:1:59450
+2022-03-22 20:11:34,807 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-10] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59479
+2022-03-22 20:11:35,473 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59486
+2022-03-22 20:11:35,495 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59487

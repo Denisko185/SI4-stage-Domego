@@ -65,6 +65,9 @@ public class BankruptcyEvent implements EventProtocol {
 
         String response = createResponseJson(player).toString();
         this.messenger.sendSpecificMessageToAUser(response);
+
+        game.getWatchers().stream().forEach(watcher -> new Messenger(watcher.getSession()).sendSpecificMessageToAUser(response));
+
         return;
 
     }

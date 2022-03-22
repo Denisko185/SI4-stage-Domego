@@ -56,6 +56,9 @@ public class GameRequestHandler implements RequestHandler {
             case MSG_GROUP_CHAT:
                 event = new GroupChatMessageEvent(session, request);
                 break;
+            case LANCH_WATCHING:
+                event = new LanchWatchingEvent(session, request);
+                break;
             default:
                 event = new InvalidEvent(session);
                 break;

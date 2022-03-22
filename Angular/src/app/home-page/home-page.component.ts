@@ -11,6 +11,7 @@ import { NzMessageService } from 'ng-zorro-antd';
 import { SubscriptionService } from '../service/subscriptionSerivce/subscription.service';
 import { Subscription } from 'rxjs';
 import { HttpParams } from '@angular/common/http';
+import {GameOnService} from '../service/gameOnService/game-on.service';
 
 @Component({
   selector: 'app-home-page',
@@ -33,7 +34,8 @@ export class HomePageComponent implements OnInit, OnDestroy {
     private router: Router,
     private subscriptionService: SubscriptionService,
     private message: NzMessageService,
-    private lobbyService: LobbyService) {
+    private lobbyService: LobbyService,
+              private gameOnService: GameOnService) {
   }
 
   ngOnInit() {
@@ -110,6 +112,30 @@ export class HomePageComponent implements OnInit, OnDestroy {
   }
 
   watch(data) {
+    // const crypto = require('crypto');
+    // const name = crypto.randomBytes(20).toString('hex');
+    console.log('BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB');
+    console.log(data.roomID)
+    console.log('BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB')
+    console.log(data)
+    const req = {
+      request: 'LANCH_WATCHING',
+      roomID: data.roomID,
+      gameID: data.roomID,
+      username: this.makeid()
+    };
     this.router.navigate(['watch']);
+    this.gameOnService.messages.next(req as SocketRequest);
+  }
+
+  makeid() {
+    let text = '';
+    const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+    for (let i = 0; i < 5; i++) {
+      text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+
+    return text;
   }
 }

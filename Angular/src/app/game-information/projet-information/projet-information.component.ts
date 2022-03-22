@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnChanges, OnDestroy, OnInit, Output, SimpleChanges} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output, SimpleChanges} from '@angular/core';
 import {GameOnService} from '../../service/gameOnService/game-on.service';
 import {Subscription} from 'rxjs';
 
@@ -8,9 +8,9 @@ import {Subscription} from 'rxjs';
   styleUrls: ['./projet-information.component.css']
 })
 export class ProjetInformationComponent implements OnInit, OnDestroy {
-  currentTime = 0;
-  currentCost = 0;
-  currentFailure = 0;
+  @Input() currentTime = 0;
+  @Input() currentCost = 0;
+  @Input() currentFailure = 0;
   tabs = [
     {
       active: true,
@@ -40,6 +40,7 @@ export class ProjetInformationComponent implements OnInit, OnDestroy {
   previousCost = 0;
   changeTypes = [];
   @Output() dureEmitter: EventEmitter<number> = new EventEmitter<number>();
+  @Output() coutDefaillEmitter: EventEmitter<number[]> = new EventEmitter<number[]>();
 
   constructor(private gameService: GameOnService) {
   }
@@ -116,6 +117,7 @@ export class ProjetInformationComponent implements OnInit, OnDestroy {
 
       // -----------------------------------------------------------------------------
       this.dureEmitter.emit(this.currentTime);
+      this.coutDefaillEmitter.emit([this.currentCost, this.currentFailure]);
     });
 
   }

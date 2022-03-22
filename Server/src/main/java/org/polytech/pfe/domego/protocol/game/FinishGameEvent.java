@@ -5,14 +5,19 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import org.polytech.pfe.domego.components.business.Game;
 import org.polytech.pfe.domego.components.business.Messenger;
+import org.polytech.pfe.domego.components.business.Room;
 import org.polytech.pfe.domego.components.calculator.VictoryPointCalculator;
+import org.polytech.pfe.domego.database.accessor.GameAccessor;
+import org.polytech.pfe.domego.database.accessor.RoomAccessor;
 import org.polytech.pfe.domego.models.Player;
 import org.polytech.pfe.domego.models.Project;
 import org.polytech.pfe.domego.protocol.EventProtocol;
 import org.polytech.pfe.domego.protocol.game.key.GameResponseKey;
+import org.polytech.pfe.domego.protocol.room.key.RoomRequestKey;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -24,9 +29,14 @@ public class FinishGameEvent implements EventProtocol {
     private VictoryPointCalculator calculator;
     private Game game;
 
+    private RoomAccessor roomAccessor;
+    private GameAccessor gameAccessor;
+
     public FinishGameEvent(Game game) {
         this.game = game;
         this.calculator = new VictoryPointCalculator(game);
+        this.roomAccessor = new RoomAccessor();
+        this.gameAccessor = new GameAccessor();
     }
 
 
@@ -44,6 +54,18 @@ public class FinishGameEvent implements EventProtocol {
             new Messenger(player.getSession()).sendSpecificMessageToAUser(createJsonResponse(rankedList).toString())
 
         );
+        this.game.getWatchers().stream().forEach(player ->
+                new Messenger(player.getSession()).sendSpecificMessageToAUser(createJsonResponse(rankedList).toString())
+
+        );
+
+        Optional<Room> optionalRoom = this.roomAccessor.getRoomById(this.game.getId());
+        if(optionalRoom.isEmpty()){
+            return;
+        }
+
+        Room room = optionalRoom.get();
+        roomAccessor.removeRoom(room);
 
     }
 

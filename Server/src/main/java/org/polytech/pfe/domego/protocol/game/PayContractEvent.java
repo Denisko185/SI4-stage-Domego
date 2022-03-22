@@ -64,6 +64,11 @@ public class PayContractEvent implements EventProtocol {
             new Messenger(giver.getSession()).sendSpecificMessageToAUser(createResponseToUser(giver, giver, receiver,amountPaid, negotiation.getId()));
             new Messenger(receiver.getSession()).sendSpecificMessageToAUser(createResponseToUser(receiver, giver, receiver, amountPaid, negotiation.getId()));
 
+            for (Player watcher: game.getWatchers()){
+                new Messenger(watcher.getSession()).sendSpecificMessageToAUser(createResponseToUser(receiver, giver, receiver, amountPaid, negotiation.getId()));
+
+            }
+
             logger.log(Level.INFO,
                     "PayContractEvent : In game {0}, {1} paid {2} the amount {3}.",
                     new Object[]{game.getId(), giver.getRole().getName(), receiver.getRole().getName() ,  amountPaid});

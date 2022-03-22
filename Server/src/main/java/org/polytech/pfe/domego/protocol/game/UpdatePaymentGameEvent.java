@@ -34,6 +34,7 @@ public class UpdatePaymentGameEvent implements EventProtocol {
     @Override
     public void processEvent() {
         this.game.getPlayers().stream().forEach(player -> new Messenger(player.getSession()).sendSpecificMessageToAUser(createJSONResponse(player).toString()));
+        this.game.getWatchers().stream().forEach(watcher -> new Messenger(watcher.getSession()).sendSpecificMessageToAUser(createJSONResponse(watcher).toString()));
 
     }
 

@@ -26,17 +26,36 @@ public class LaunchGameEvent implements EventProtocol {
 
     private Game game;
     private Logger logger = Logger.getGlobal();
+    //Variable permettant de distinguer si c'est un watcher ou un player
+    private int a = 0;
+    private Player watcher;
 
     public LaunchGameEvent(Game game) {
         this.game = game;
     }
 
+    public LaunchGameEvent(Game game,Player watcher,int type) {
+        this.game = game;
+        this.a = type;
+        this.watcher = watcher;
+    }
+
     @Override
     public void processEvent() {
-       game.getPlayers().forEach(
-               player -> new Messenger(player.getSession()).sendSpecificMessageToAUser(createUpdateResponse(player))
-       );
-       logger.info("LaunchGameEvent : Send Message LaunchGameEvent to all players");
+        if (a == 0){
+
+            game.getPlayers().forEach(
+                    player -> new Messenger(player.getSession()).sendSpecificMessageToAUser(createUpdateResponse(player))
+            );
+            logger.info("LaunchGameEvent : Send Message LaunchGameEvent to all players");
+
+        }else {
+
+            new Messenger(this.watcher.getSession()).sendSpecificMessageToAUser(createUpdateResponse(this.watcher));
+
+            logger.info("LaunchGameEvent : Send Message LaunchGameEvent to new watcher");
+
+        }
 
     }
 

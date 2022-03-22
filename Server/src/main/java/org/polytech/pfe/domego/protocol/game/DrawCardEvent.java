@@ -51,7 +51,13 @@ public class DrawCardEvent implements EventProtocol {
         logger.log(Level.INFO, "DrawCardEvent : List of Risk : {0}" , risks.stream().map(riskCard -> riskCard.getRiskAction()).collect(Collectors.toList()));
         logger.log(Level.INFO, "DrawCardEvent : List of Quality : {0}" , qualities.stream().map(qualityCard -> qualityCard.getQualityAction()).collect(Collectors.toList()));
         JsonObject response = createJsonResponse(currentActivity,risks.stream().map(riskCard -> riskCard.getRiskAction()).collect(Collectors.toList()), qualities.stream().map(qualityCard -> qualityCard.getQualityAction()).collect(Collectors.toList()));
-        game.getPlayers().forEach(player -> new Messenger(player.getSession()).sendSpecificMessageToAUser(finalResponseWithPlayerElement(response, player).toString()));
+
+        game.getPlayers().forEach(player -> {
+            new Messenger(player.getSession()).sendSpecificMessageToAUser(finalResponseWithPlayerElement(response, player).toString());
+            game.getWatchers().forEach(pl -> new Messenger(pl.getSession()).sendSpecificMessageToAUser(finalResponseWithPlayerElement(response, player).toString()));
+
+        });
+
 
         if (currentActivity.allMandatoryResourcesHaveBeenPayed())//Check if someOne has risk card to pay
             currentActivity.finishActivity();
