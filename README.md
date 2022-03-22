@@ -99,4 +99,5 @@ mvn test
 * **Gaetan Vialon** - *Initial work* - [VialonGaetan](https://github.com/VialonGaetan)
 * **Wei Wang** - *Initial work* - [WANGWei118](https://github.com/WANGWei118)
 
-
+* **Denis ADANLEHOUSSI** - *Project improvement* - [Denisko185](https://github.com/Denisko185)
+* **Armand HONYIGLOH** - *Project improvement* - [RmannLePhilosopheFou](https://github.com/RmannLePhilosopheFou)
