@@ -555,3 +555,7 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2022-03-22 20:11:34,807 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-10] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59479
 2022-03-22 20:11:35,473 INFO org.polytech.pfe.domego.services.sockets.room.RoomSocketHandler [http-nio-8080-exec-3] RoomSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59486
 2022-03-22 20:11:35,495 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-1] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59487
+2022-03-22 20:12:55,877 INFO org.polytech.pfe.domego.services.sockets.game.GameSocketHandler [http-nio-8080-exec-8] GameSocketHandler : New user on socket with ip : /0:0:0:0:0:0:0:1:59517
+2022-03-22 20:13:10,130 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-22 20:13:10,177 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'defaultSockJsTaskScheduler'
+2022-03-22 20:13:10,423 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:6}] to localhost:27017 because the pool has been closed.
