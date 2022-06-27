@@ -82,7 +82,7 @@ We have developped some tests to check the behavior of the server. For run all t
 cd Server
 mvn test
 ```
-## Deploy the app
+## Deploy the app ont Polytech server  [different from the deploying section in top]
 -connect to domego virtual machin (ask access to polytech dsi office)
 
 ******** start mongodb server***********
