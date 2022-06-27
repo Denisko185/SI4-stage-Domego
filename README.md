@@ -82,6 +82,25 @@ We have developped some tests to check the behavior of the server. For run all t
 cd Server
 mvn test
 ```
+## Deploy the app
+-connect to domego virtual machin (ask access to polytech dsi office)
+
+******** start mongodb server***********
+sudo systemctl start mongod => if error run sudo systemctl daemon-reload and re-run the command
+sudo systemctl enable mongod
+
+
+- go into domego folder
+-cd Domego
+
+****** run backend ************
+java -jar jar-filename  ( remlace jar-filename with the  jar file you will find in domego folder )
+
+
+****** run frontend ************
+-sudo su
+-cd Domego
+-npm start
 
 ## Built With
 
